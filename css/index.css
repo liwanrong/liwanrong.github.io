@@ -56,7 +56,7 @@ body {
   height: 8px;
 }
 *::-webkit-scrollbar-thumb {
-  background: #49b1f5;
+  background: #5f9ea0;
 }
 *::-webkit-scrollbar-track {
   background-color: transparent;
@@ -131,7 +131,7 @@ hr {
   position: relative;
   margin: 2rem auto;
   width: calc(100% - 4px);
-  border: 2px dashed #a4d8fa;
+  border: 2px dashed #5f9ea0;
   background: #fff;
 }
 hr:hover:before {
@@ -142,7 +142,7 @@ hr:before {
   top: -10px;
   left: 5%;
   z-index: 1;
-  color: #49b1f5;
+  color: #5f9ea0;
   content: '\f0c4';
   font: normal normal normal 14px/1 FontAwesome;
   font-size: 20px;
@@ -157,7 +157,7 @@ details {
   border: 2px solid #d6d6d6;
 }
 details summary {
-  color: #49b1f5;
+  color: #5f9ea0;
 }
 .not-code {
   margin: 0.5em;
@@ -181,7 +181,7 @@ table td {
   vertical-align: top;
 }
 *::selection {
-  background: #00c4b6;
+  background: #5f9ea0;
   color: #f7f7f7;
 }
 .full_page #site-title,
@@ -1408,9 +1408,9 @@ figure.highlight {
 blockquote {
   margin: 0;
   padding: 0.1rem 0.8rem;
-  border-left: 0.2rem solid #49b1f5;
+  border-left: 0.2rem solid #5f9ea0;
   color: #6a737d;
-  background-color: #e9f5fe;
+  background-color: #c9dedf;
 }
 blockquote p {
   margin: 0 !important;
@@ -1803,7 +1803,7 @@ blockquote footer cite:before {
 #aside_content .card-author #bookmark-it {
   margin-top: 0.2rem;
   height: 1.6rem;
-  background-color: #49b1f5;
+  background-color: #5f9ea0;
   color: #fff;
   text-decoration: none;
   line-height: 1.6rem;
@@ -1815,7 +1815,7 @@ blockquote footer cite:before {
   padding-left: 10px;
 }
 #aside_content .card-author .bookmark--primary {
-  color: #ff7242;
+  color: #87cefa;
 }
 #aside_content .card-author .bookmark--animated {
   -webkit-transition-property: color;
@@ -1836,7 +1836,7 @@ blockquote footer cite:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ff7242;
+  background: #87cefa;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -o-transform: scaleX(0);
@@ -1926,7 +1926,7 @@ blockquote footer cite:before {
   word-break: keep-all;
 }
 #aside_content .card-tag-cloud a:hover {
-  color: #49b1f5 !important;
+  color: #5f9ea0 !important;
 }
 #aside_content .aside_recent_item {
   margin: 10px 0 -15px 0;
@@ -1981,7 +1981,7 @@ blockquote footer cite:before {
   padding-left: 10px;
 }
 #aside_content #aside_title .aside_post_title:hover {
-  color: #49b1f5 !important;
+  color: #5f9ea0 !important;
 }
 #aside_content .aside_category_item,
 #aside_content .archive-list {
@@ -2002,7 +2002,7 @@ blockquote footer cite:before {
 }
 #aside_content .aside_category_list:hover,
 #aside_content .archive-list-item:hover {
-  background-color: #49b1f5;
+  background-color: #5f9ea0;
   color: #363636;
 }
 #aside_content .aside_category_list a,
@@ -2129,7 +2129,7 @@ blockquote footer cite:before {
   position: absolute;
   top: 0;
   left: 0;
-  background: #49b1f5;
+  background: #5f9ea0;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-out;
@@ -2150,14 +2150,14 @@ blockquote footer cite:before {
   line-height: 1.2rem;
 }
 .category-content ul li:hover:before {
-  border-color: #ff7242;
+  border-color: #87cefa;
 }
 .category-content ul li:before {
   top: 10px;
   margin-left: 0.45rem;
   width: 0.3rem;
   height: 0.3rem;
-  border: 0.15rem solid #49b1f5;
+  border: 0.15rem solid #5f9ea0;
   border-radius: 0.3rem;
   background: #fff;
   content: "";
@@ -2180,12 +2180,12 @@ blockquote footer cite:before {
 #vcomment button {
   font-size: 0.7rem;
   padding: 0.3rem 1rem;
-  background-color: #49b1f5;
+  background-color: #5f9ea0;
   color: #fff;
   border-color: #fff;
 }
 #vcomment button:hover {
-  background-color: #06446c;
+  background-color: #132020;
 }
 #vcomment textarea {
   font-size: 0.7rem;
@@ -2221,13 +2221,13 @@ blockquote footer cite:before {
 }
 #vcomment .vat {
   font-size: 0.7125rem;
-  color: #00c4b6;
-  border: 1px solid #00c4b6;
+  color: #ffb6c1;
+  border: 1px solid #ffb6c1;
   padding: 0 0.8rem;
   border-radius: 5px;
 }
 #vcomment .vat:hover {
-  background-color: rgba(0,196,182,0.5);
+  background-color: rgba(255,182,193,0.5);
 }
 #vcomment code,
 #vcomment pre {
@@ -2311,7 +2311,7 @@ blockquote footer cite:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #49b1f5 !important;
+  background: #5f9ea0 !important;
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -o-transform: scale(0);
@@ -2399,7 +2399,7 @@ blockquote footer cite:before {
 }
 #footer {
   margin-top: 1rem;
-  background: #49b1f5;
+  background: #5f9ea0;
   background-attachment: local;
   background-position: bottom;
   -webkit-background-size: cover;
@@ -2456,7 +2456,7 @@ blockquote footer cite:before {
 #nav .nav_bg {
   width: 100%;
   height: 100%;
-  background-color: #49b1f5;
+  background-color: #5f9ea0;
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -2580,7 +2580,7 @@ blockquote footer cite:before {
 #page-header.fixed a:hover,
 #page-header.fixed #site-name:hover,
 #page-header.fixed .toggle-menu:hover {
-  color: #49b1f5;
+  color: #5f9ea0;
 }
 #page-header.visible {
   -webkit-transform: translate3d(0, 100%, 0);
@@ -2675,7 +2675,7 @@ blockquote footer cite:before {
 }
 #page-header .menus_item .menus_item_child li:hover a,
 #page-header .menus_item .menus_item_child li:hover i {
-  color: #49b1f5;
+  color: #5f9ea0;
 }
 #page-header .menus_item .menus_item_child li a {
   color: #3b3a3a;
@@ -2698,7 +2698,7 @@ blockquote footer cite:before {
   z-index: -1;
   width: 0;
   height: 3px;
-  background-color: #80c8f8;
+  background-color: #8fbbbd;
   content: "";
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2867,7 +2867,7 @@ blockquote footer cite:before {
   width: 70%;
 }
 #mobile-sidebar #mobile-sidebar-menus .menus_items span:hover {
-  color: #49b1f5;
+  color: #5f9ea0;
 }
 #mobile-sidebar #mobile-sidebar-menus .menus_items .menus-expand {
   position: absolute;
@@ -2921,7 +2921,7 @@ blockquote footer cite:before {
   color: #3b3a3a;
 }
 #mobile-sidebar a:hover {
-  color: #49b1f5;
+  color: #5f9ea0;
 }
 .open-mobile-menus,
 .open-mobile-toc {
@@ -3238,7 +3238,7 @@ blockquote footer cite:before {
   color: #858585;
 }
 #recent-posts .article-meta .sticky {
-  color: #ff7242;
+  color: #87cefa;
 }
 #recent-posts .article-meta i {
   margin: 0 0.2rem 0 0.3rem;
@@ -3274,7 +3274,7 @@ blockquote footer cite:before {
   word-wrap: break-word;
 }
 #recent-posts .article-title:hover {
-  color: #49b1f5 !important;
+  color: #5f9ea0 !important;
 }
 .tag-cloud {
   padding: 40px 44px 44px;
@@ -3291,7 +3291,7 @@ blockquote footer cite:before {
   transition: all 0.3s;
 }
 .tag-cloud a:hover {
-  color: #ff7242 !important;
+  color: #87cefa !important;
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
@@ -3346,7 +3346,7 @@ blockquote footer cite:before {
 }
 .article-sort {
   padding-left: 1rem;
-  border-left: 2px solid #a4d8fa;
+  border-left: 2px solid #5f9ea0;
 }
 .article-sort-title {
   position: relative;
@@ -3356,7 +3356,7 @@ blockquote footer cite:before {
   line-height: 1;
 }
 .article-sort-title:hover:before {
-  border-color: #ff7242;
+  border-color: #87cefa;
 }
 .article-sort-title:before {
   position: absolute;
@@ -3365,7 +3365,7 @@ blockquote footer cite:before {
   z-index: 1;
   width: 0.5rem;
   height: 0.5rem;
-  border: 0.25rem solid #49b1f5;
+  border: 0.25rem solid #5f9ea0;
   border-radius: 0.5rem;
   background: #fff;
   content: "";
@@ -3383,7 +3383,7 @@ blockquote footer cite:before {
   z-index: 0;
   width: 0.1rem;
   height: 1.3rem;
-  background: #a4d8fa;
+  background: #5f9ea0;
   content: "";
 }
 .article-sort-item {
@@ -3396,7 +3396,7 @@ blockquote footer cite:before {
   transition: all 0.2s ease-in-out;
 }
 .article-sort-item:hover:before {
-  border-color: #ff7242;
+  border-color: #87cefa;
 }
 .article-sort-item:before {
   position: absolute;
@@ -3404,7 +3404,7 @@ blockquote footer cite:before {
   left: calc(-1rem - 17px);
   width: 0.3rem;
   height: 0.3rem;
-  border: 0.15rem solid #49b1f5;
+  border: 0.15rem solid #5f9ea0;
   border-radius: 0.3rem;
   background: #fff;
   content: "";
@@ -3419,11 +3419,11 @@ blockquote footer cite:before {
   font-size: 1rem;
 }
 .article-sort-item.year:hover:before {
-  border-color: #49b1f5;
+  border-color: #5f9ea0;
 }
 .article-sort-item.year:before {
   top: 0.7rem;
-  border-color: #ff7242;
+  border-color: #87cefa;
 }
 .article-sort-item__time {
   color: #99a9bf;
@@ -3445,7 +3445,7 @@ blockquote footer cite:before {
   transition: all 0.3s;
 }
 .article-sort-item__title:hover {
-  color: #49b1f5;
+  color: #5f9ea0;
   -webkit-transform: translateX(20px);
   -moz-transform: translateX(20px);
   -o-transform: translateX(20px);
@@ -3599,7 +3599,7 @@ blockquote footer cite:before {
   cursor: pointer;
 }
 #pagination .page-number.current {
-  background: #00c4b6;
+  background: #ffb6c1;
   color: #fff;
   cursor: default;
 }
@@ -3736,7 +3736,7 @@ blockquote footer cite:before {
 #top-container {
   position: relative;
   margin-bottom: 1rem;
-  background-color: #49b1f5;
+  background-color: #5f9ea0;
   background-attachment: local;
   background-position: center;
   -webkit-background-size: cover;
@@ -3812,10 +3812,10 @@ blockquote footer cite:before {
   width: fit-content;
   margin: 0.4rem 0.4rem 0.4rem 0;
   padding: 0rem 0.6rem;
-  border: 1px solid #49b1f5;
+  border: 1px solid #5f9ea0;
   border-radius: 0.6rem;
   background: #fff;
-  color: #49b1f5;
+  color: #5f9ea0;
   text-decoration: none;
   font-size: 12px;
   cursor: pointer;
@@ -3826,7 +3826,7 @@ blockquote footer cite:before {
   transition: all 0.2s ease-in-out;
 }
 .post-meta__tags:hover {
-  background: #49b1f5;
+  background: #5f9ea0;
   color: #fff;
 }
 #post-content ol,
@@ -3859,7 +3859,7 @@ a {
   transition: all 0.2s;
 }
 a:hover {
-  color: #49b1f5;
+  color: #5f9ea0;
   text-decoration: none;
 }
 a#site-name {
@@ -3976,7 +3976,7 @@ img:hover {
   width: 0.8rem;
   height: 0.8rem;
   border-radius: 0.8rem;
-  background: #49b1f5;
+  background: #5f9ea0;
   content: "";
 }
 .post-copyright:after {
@@ -3994,7 +3994,7 @@ img:hover {
   box-shadow: 0 0 8px 0 rgba(232,237,250,0.6), 0 2px 4px 0 rgba(232,237,250,0.5);
 }
 .post-copyright-meta {
-  color: #49b1f5;
+  color: #5f9ea0;
   font-weight: bold;
 }
 .post-copyright-info a {
@@ -4073,7 +4073,7 @@ img:hover {
 }
 .layout_post #post a {
   text-decoration: none;
-  color: #49b1f5;
+  color: #5f9ea0;
 }
 .layout_post #post h1,
 .layout_post #post h2,
@@ -4313,11 +4313,11 @@ img:hover {
   cursor: pointer;
   color: #fff;
   line-height: 36px;
-  background: #49b1f5;
+  background: #5f9ea0;
   width: 80px;
 }
 .post-reward .reward-button:hover {
-  background: #09629c;
+  background: #263f40;
 }
 .post-reward .reward-button:hover .reward-main {
   display: block;
@@ -4402,7 +4402,7 @@ img:hover {
 #rightside #rightside_config {
   width: 30px;
   height: 30px;
-  background-color: #49b1f5;
+  background-color: #5f9ea0;
   color: #fff;
   text-align: center;
   line-height: 29px;
@@ -4420,7 +4420,7 @@ img:hover {
 #rightside #mobile-toc-button:hover,
 #rightside #go-up:hover,
 #rightside #rightside_config:hover {
-  background-color: #ff7242;
+  background-color: #87cefa;
 }
 #rightside #rightside_config i {
   -webkit-animation: avatar_turn_around 2s linear infinite;
@@ -4432,7 +4432,7 @@ img:hover {
 #rightside .translate_chn_to_cht {
   width: 30px;
   height: 30px;
-  background-color: #49b1f5;
+  background-color: #5f9ea0;
   color: #fff;
   text-align: center;
   line-height: 29px;
@@ -4443,7 +4443,7 @@ img:hover {
   text-decoration: none;
 }
 #rightside .translate_chn_to_cht:hover {
-  background-color: #ff7242;
+  background-color: #87cefa;
 }
 #rightside #mobile-toc-button {
   display: none;
@@ -4500,15 +4500,15 @@ img:hover {
   transition: all 0.2s ease-in-out;
 }
 #sidebar .sidebar-toc .toc-link.active {
-  border-right-color: #009d92;
-  background: #00c4b6;
+  border-right-color: #ff5f77;
+  background: #ffb6c1;
   color: #fff;
 }
 #sidebar .sidebar-toc__progress {
   position: relative;
   margin-top: -0.3rem;
   padding-left: 0.6rem;
-  color: #00c4b6;
+  color: #ffb6c1;
 }
 #sidebar .sidebar-toc__progress .progress-notice {
   margin-right: 0.4rem;
@@ -4520,7 +4520,7 @@ img:hover {
 #sidebar .sidebar-toc__progress-bar {
   width: 0;
   height: 1px;
-  background: #00c4b6;
+  background: #ffb6c1;
 }
 [data-theme="dark"] body {
   color: #99a9bf;

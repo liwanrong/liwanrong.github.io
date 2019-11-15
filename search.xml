@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>这是一篇有秘密的文章</title>
+    <url>/2019/11/14/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%9C%89%E7%A7%98%E5%AF%86%E7%9A%84%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <div class="hbe-input-container">
+  <input type="password" id="hbePass" placeholder="密码：我的生日" />
+    <label for="hbePass">密码：我的生日</label>
+    <div class="bottom-line"></div>
+  </div>
+  <script id="hbeData" type="hbeData" data-hmacdigest="31c5aec9866043efc2c89ed5ad420e7193d3c9362b002fa8f09eec8c8b28935d">39f72da9c34a8205bf8d06c069db47ad</script>
+</div>
+<script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+  </entry>
+  <entry>
     <title>基于Hexo+GitHub的个人博客搭建</title>
     <url>/2019/11/09/Hexo/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　为了尽早体会到拥有一个个人博客的乐趣，在使用Typecho搭建个人博客后由于不想出云服务器的费用(在此感谢大师第一时间给我提供帮助)，我便转而投入到了hexo+github中。整体使用过程是较为流畅的，唯一一点不适应的是每天都要面对黑色的Git Bash……<br>　　今天写这篇文章，一是为我的博客庆生，二则是分享一下在搭建过程中所探索出的一些“新”东西。</p>

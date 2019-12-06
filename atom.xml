@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://liwanrong.github.io/"/>
+  <link href="https://liwanrong.coding.me/"/>
   <updated>2019-12-01T16:39:22.000Z</updated>
-  <id>https://liwanrong.github.io/</id>
+  <id>https://liwanrong.coding.me/</id>
   
   <author>
     <name>清·婉</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>压缩图片的方法</title>
-    <link href="https://liwanrong.github.io/2019/12/02/%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/"/>
-    <id>https://liwanrong.github.io/2019/12/02/压缩图片的方法/</id>
+    <link href="https://liwanrong.coding.me/2019/12/02/%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/"/>
+    <id>https://liwanrong.coding.me/2019/12/02/压缩图片的方法/</id>
     <published>2019-12-01T16:39:22.000Z</published>
     <updated>2019-12-01T16:39:22.000Z</updated>
     
@@ -35,17 +35,17 @@
     </summary>
     
     
-      <category term="Learning" scheme="https://liwanrong.github.io/categories/Learning/"/>
+      <category term="Learning" scheme="https://liwanrong.coding.me/categories/Learning/"/>
     
     
-      <category term="Learning" scheme="https://liwanrong.github.io/tags/Learning/"/>
+      <category term="Learning" scheme="https://liwanrong.coding.me/tags/Learning/"/>
     
   </entry>
   
   <entry>
     <title>这是一篇有秘密的文章</title>
-    <link href="https://liwanrong.github.io/2019/11/14/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%9C%89%E7%A7%98%E5%AF%86%E7%9A%84%E6%96%87%E7%AB%A0/"/>
-    <id>https://liwanrong.github.io/2019/11/14/这是一篇有秘密的文章/</id>
+    <link href="https://liwanrong.coding.me/2019/11/14/%E8%BF%99%E6%98%AF%E4%B8%80%E7%AF%87%E6%9C%89%E7%A7%98%E5%AF%86%E7%9A%84%E6%96%87%E7%AB%A0/"/>
+    <id>https://liwanrong.coding.me/2019/11/14/这是一篇有秘密的文章/</id>
     <published>2019-11-14T07:55:44.000Z</published>
     <updated>2019-11-14T07:55:44.000Z</updated>
     
@@ -58,17 +58,17 @@
     </summary>
     
     
-      <category term="Thinking" scheme="https://liwanrong.github.io/categories/Thinking/"/>
+      <category term="Thinking" scheme="https://liwanrong.coding.me/categories/Thinking/"/>
     
     
-      <category term="Learning" scheme="https://liwanrong.github.io/tags/Learning/"/>
+      <category term="Learning" scheme="https://liwanrong.coding.me/tags/Learning/"/>
     
   </entry>
   
   <entry>
     <title>基于Hexo+GitHub的个人博客搭建</title>
-    <link href="https://liwanrong.github.io/2019/11/09/Hexo/"/>
-    <id>https://liwanrong.github.io/2019/11/09/Hexo/</id>
+    <link href="https://liwanrong.coding.me/2019/11/09/Hexo/"/>
+    <id>https://liwanrong.coding.me/2019/11/09/Hexo/</id>
     <published>2019-11-09T12:20:00.000Z</published>
     <updated>2019-11-15T07:37:47.630Z</updated>
     
@@ -84,17 +84,17 @@
     </summary>
     
     
-      <category term="WebSite" scheme="https://liwanrong.github.io/categories/WebSite/"/>
+      <category term="WebSite" scheme="https://liwanrong.coding.me/categories/WebSite/"/>
     
     
-      <category term="Hexo" scheme="https://liwanrong.github.io/tags/Hexo/"/>
+      <category term="Hexo" scheme="https://liwanrong.coding.me/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>SQL Server常用语句</title>
-    <link href="https://liwanrong.github.io/2019/11/09/SQLServer%E5%B8%B8%E7%94%A8%E8%AF%AD%E5%8F%A5/"/>
-    <id>https://liwanrong.github.io/2019/11/09/SQLServer常用语句/</id>
+    <link href="https://liwanrong.coding.me/2019/11/09/SQLServer%E5%B8%B8%E7%94%A8%E8%AF%AD%E5%8F%A5/"/>
+    <id>https://liwanrong.coding.me/2019/11/09/SQLServer常用语句/</id>
     <published>2019-11-09T11:16:11.000Z</published>
     <updated>2019-11-09T11:58:26.554Z</updated>
     
@@ -110,17 +110,17 @@
     </summary>
     
     
-      <category term="SQL Server" scheme="https://liwanrong.github.io/categories/SQL-Server/"/>
+      <category term="SQL Server" scheme="https://liwanrong.coding.me/categories/SQL-Server/"/>
     
     
-      <category term="SQL" scheme="https://liwanrong.github.io/tags/SQL/"/>
+      <category term="SQL" scheme="https://liwanrong.coding.me/tags/SQL/"/>
     
   </entry>
   
   <entry>
     <title>鱼与熊掌，可兼得否？</title>
-    <link href="https://liwanrong.github.io/2019/10/27/%E9%B1%BC%E4%B8%8E%E7%86%8A%E6%8E%8C%EF%BC%8C%E5%8F%AF%E5%85%BC%E5%BE%97%E5%90%A6%EF%BC%9F/"/>
-    <id>https://liwanrong.github.io/2019/10/27/鱼与熊掌，可兼得否？/</id>
+    <link href="https://liwanrong.coding.me/2019/10/27/%E9%B1%BC%E4%B8%8E%E7%86%8A%E6%8E%8C%EF%BC%8C%E5%8F%AF%E5%85%BC%E5%BE%97%E5%90%A6%EF%BC%9F/"/>
+    <id>https://liwanrong.coding.me/2019/10/27/鱼与熊掌，可兼得否？/</id>
     <published>2019-10-27T07:28:34.000Z</published>
     <updated>2019-11-08T03:13:06.075Z</updated>
     
@@ -136,17 +136,17 @@
     </summary>
     
     
-      <category term="Major Learning" scheme="https://liwanrong.github.io/categories/Major-Learning/"/>
+      <category term="Major Learning" scheme="https://liwanrong.coding.me/categories/Major-Learning/"/>
     
     
-      <category term="RMMV" scheme="https://liwanrong.github.io/tags/RMMV/"/>
+      <category term="RMMV" scheme="https://liwanrong.coding.me/tags/RMMV/"/>
     
   </entry>
   
   <entry>
     <title>Typecho使用心得（一）</title>
-    <link href="https://liwanrong.github.io/2019/10/25/Typecho%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
-    <id>https://liwanrong.github.io/2019/10/25/Typecho使用心得/</id>
+    <link href="https://liwanrong.coding.me/2019/10/25/Typecho%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97/"/>
+    <id>https://liwanrong.coding.me/2019/10/25/Typecho使用心得/</id>
     <published>2019-10-24T16:38:48.000Z</published>
     <updated>2019-11-09T09:25:00.000Z</updated>
     
@@ -162,17 +162,17 @@
     </summary>
     
     
-      <category term="WebSite" scheme="https://liwanrong.github.io/categories/WebSite/"/>
+      <category term="WebSite" scheme="https://liwanrong.coding.me/categories/WebSite/"/>
     
     
-      <category term="Typecho" scheme="https://liwanrong.github.io/tags/Typecho/"/>
+      <category term="Typecho" scheme="https://liwanrong.coding.me/tags/Typecho/"/>
     
   </entry>
   
   <entry>
     <title>读书札记</title>
-    <link href="https://liwanrong.github.io/2019/10/01/%E8%AF%BB%E4%B9%A6%E6%9C%AD%E8%AE%B0/"/>
-    <id>https://liwanrong.github.io/2019/10/01/读书札记/</id>
+    <link href="https://liwanrong.coding.me/2019/10/01/%E8%AF%BB%E4%B9%A6%E6%9C%AD%E8%AE%B0/"/>
+    <id>https://liwanrong.coding.me/2019/10/01/读书札记/</id>
     <published>2019-10-01T03:32:20.000Z</published>
     <updated>2019-11-07T07:01:01.220Z</updated>
     
@@ -188,10 +188,10 @@
     </summary>
     
     
-      <category term="Thinking" scheme="https://liwanrong.github.io/categories/Thinking/"/>
+      <category term="Thinking" scheme="https://liwanrong.coding.me/categories/Thinking/"/>
     
     
-      <category term="Reading" scheme="https://liwanrong.github.io/tags/Reading/"/>
+      <category term="Reading" scheme="https://liwanrong.coding.me/tags/Reading/"/>
     
   </entry>
   

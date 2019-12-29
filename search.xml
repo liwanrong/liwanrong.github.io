@@ -15,15 +15,18 @@
 <li>李四</li>
 </ol>
 <ul>
-<li>超级链接：“<a href></a>”</li>
+<li>超级链接</li>
 </ul>
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[]()</span><br><span class="line">[<span class="string">Hexo+GithubPage+阿里云域名光速搭建个人博客网站</span>](<span class="link">https://www.jianshu.com/p/f3dde1d95ee4</span>)</span><br></pre></td></tr></table></figure>
+
 <p><a href="https://www.jianshu.com/p/f3dde1d95ee4" target="_blank" rel="noopener">Hexo+GithubPage+阿里云域名光速搭建个人博客网站</a></p>
 <ul>
-<li>图片链接：“<img alt data-src class="lazyload">)”(个人更推荐HTML的方式插入图片)</li>
+<li>图片链接</li>
 </ul>
-<img style="width: 400px" data-src="https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg " class="lazyload">
-<img style="width: 400px" data-src="https://s2.ax1x.com/2019/11/08/MZJ5tA.jpg " class="lazyload">
-<img style="width: 400px" data-src="https://s2.ax1x.com/2019/11/08/MZ3CZj.jpg " class="lazyload">
+<figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![]()</span><br><span class="line">![](https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg)</span><br></pre></td></tr></table></figure>
+
+<p>(个人更推荐HTML的方式插入图片)</p>
+<img style="width: 270px;" data-src="https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg " class="lazyload">
 
 <h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ul>
 <li>访问sublime text 官网，获取试用下载</li>
@@ -48,10 +51,8 @@
 <li>gopher://</li>
 <li>irc://</li>
 </ul>
-<p>本机文件如何使用？<br>绝对路径：file://D:/x/x</p>
-<p>推荐使用相对路径：file://  /D:/x/x</p>
-<p>##版本控制系统</p>
-<ul>
+<p>本机文件如何使用？<br>绝对路径：file://D:/x/x<br>推荐使用相对路径：file://  /D:/x/x</p>
+<h2 id="版本控制系统"><a href="#版本控制系统" class="headerlink" title="版本控制系统"></a>版本控制系统</h2><ul>
 <li><p>常见的版本控制系统</p>
 <ul>
 <li>CVS （基本已弃用）</li>
@@ -73,7 +74,7 @@
 </ul>
 </li>
 </ul>
-<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=a3034ewwr6c" allowfullscreen="true"></iframe>]]></content>
+]]></content>
   </entry>
   <entry>
     <title>压缩图片的方法</title>

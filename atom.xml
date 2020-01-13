@@ -63,6 +63,32 @@
   </entry>
   
   <entry>
+    <title>Markdown基本语法</title>
+    <link href="https://liwanrong.coding.me/2019/12/09/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
+    <id>https://liwanrong.coding.me/2019/12/09/markdown基本语法/</id>
+    <published>2019-12-09T11:16:11.000Z</published>
+    <updated>2020-01-13T09:41:25.879Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h2><ul><li>标题用“#”或“-”开头，个数表示标题的级数，相当于h1-h6</li><li>不加任何标识的文本表示正文</li><li>无序列表：用加空格开始</li><li>有序列表：用数字加标题开始</li></ul><ol><li>张三</li><li>123</li><li>李四</li></ol><ul><li>超级链接</li></ul><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[]()</span><br><span class="line">[<span class="string">Hexo+GithubPage+阿里云域名光速搭建个人博客网站</span>](<span class="link">https://www.jianshu.com/p/f3dde1d95ee4</span>)</span><br></pre></td></tr></table></figure><p><a href="https://www.jianshu.com/p/f3dde1d95ee4" target="_blank" rel="noopener">Hexo+GithubPage+阿里云域名光速搭建个人博客网站</a></p><ul><li>图片链接</li></ul><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![]()</span><br><span class="line">![](https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg)</span><br></pre></td></tr></table></figure><p>(个人更推荐HTML的方式插入图片)</p><img style="width: 270px;" data-src="https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg " class="lazyload"><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ul><li>访问sublime text 官网，获取试用下载</li><li>访问package control官网获取相应版本安装脚本</li><li>在sublime中按“ctrl+`</li><li>重启后，ctrl+shift+p，出现命令输入框</li><li>在命令框中输入package control: install package（支持模糊输入）<ul><li>markdown preview</li><li>markdown build（ctrl+b）</li></ul></li></ul><h2 id="其他的markdown编辑器"><a href="#其他的markdown编辑器" class="headerlink" title="其他的markdown编辑器"></a>其他的markdown编辑器</h2><ul><li>Typora + Pandoc</li><li>简书</li><li>Visual studio code</li></ul><h2 id="URI"><a href="#URI" class="headerlink" title="URI"></a>URI</h2><ul><li>协议：// 主机名/目录名/资源名</li><li>http://</li><li>https://</li><li>gopher://</li><li>irc://</li></ul><p>本机文件如何使用？<br>绝对路径：file://D:/x/x<br>推荐使用相对路径：file://  /D:/x/x</p><h2 id="版本控制系统"><a href="#版本控制系统" class="headerlink" title="版本控制系统"></a>版本控制系统</h2><ul><li><p>常见的版本控制系统</p><ul><li>CVS （基本已弃用）</li><li>Microsoft Visual soursesafe（基本已弃用）</li><li>Subversion</li><li>Git（流行，Github使用）</li></ul></li><li><p>github及pages</p><ul><li>注册github账号，例如：zjlester</li><li>创建一个仓库</li></ul></li><li><p>后续的机制</p><ul><li>创建一个静态网站</li><li>将静态网站更新</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Markdown语法" scheme="https://liwanrong.coding.me/categories/Markdown%E8%AF%AD%E6%B3%95/"/>
+    
+    
+      <category term="Markdown" scheme="https://liwanrong.coding.me/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
     <title>压缩图片的方法</title>
     <link href="https://liwanrong.coding.me/2019/12/02/%E5%8E%8B%E7%BC%A9%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/"/>
     <id>https://liwanrong.coding.me/2019/12/02/压缩图片的方法/</id>
@@ -160,32 +186,6 @@
     
     
       <category term="SQL" scheme="https://liwanrong.coding.me/tags/SQL/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Markdown基本语法</title>
-    <link href="https://liwanrong.coding.me/2019/11/09/markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/"/>
-    <id>https://liwanrong.coding.me/2019/11/09/markdown基本语法/</id>
-    <published>2019-11-09T11:16:11.000Z</published>
-    <updated>2020-01-13T09:13:15.221Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h2><ul><li>标题用“#”或“-”开头，个数表示标题的级数，相当于h1-h6</li><li>不加任何标识的文本表示正文</li><li>无序列表：用加空格开始</li><li>有序列表：用数字加标题开始</li></ul><ol><li>张三</li><li>123</li><li>李四</li></ol><ul><li>超级链接</li></ul><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[]()</span><br><span class="line">[<span class="string">Hexo+GithubPage+阿里云域名光速搭建个人博客网站</span>](<span class="link">https://www.jianshu.com/p/f3dde1d95ee4</span>)</span><br></pre></td></tr></table></figure><p><a href="https://www.jianshu.com/p/f3dde1d95ee4" target="_blank" rel="noopener">Hexo+GithubPage+阿里云域名光速搭建个人博客网站</a></p><ul><li>图片链接</li></ul><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![]()</span><br><span class="line">![](https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg)</span><br></pre></td></tr></table></figure><p>(个人更推荐HTML的方式插入图片)</p><img style="width: 270px;" data-src="https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg " class="lazyload"><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ul><li>访问sublime text 官网，获取试用下载</li><li>访问package control官网获取相应版本安装脚本</li><li>在sublime中按“ctrl+`</li><li>重启后，ctrl+shift+p，出现命令输入框</li><li>在命令框中输入package control: install package（支持模糊输入）<ul><li>markdown preview</li><li>markdown build（ctrl+b）</li></ul></li></ul><h2 id="其他的markdown编辑器"><a href="#其他的markdown编辑器" class="headerlink" title="其他的markdown编辑器"></a>其他的markdown编辑器</h2><ul><li>Typora + Pandoc</li><li>简书</li><li>Visual studio code</li></ul><h2 id="URI"><a href="#URI" class="headerlink" title="URI"></a>URI</h2><ul><li>协议：// 主机名/目录名/资源名</li><li>http://</li><li>https://</li><li>gopher://</li><li>irc://</li></ul><p>本机文件如何使用？<br>绝对路径：file://D:/x/x<br>推荐使用相对路径：file://  /D:/x/x</p><h2 id="版本控制系统"><a href="#版本控制系统" class="headerlink" title="版本控制系统"></a>版本控制系统</h2><ul><li><p>常见的版本控制系统</p><ul><li>CVS （基本已弃用）</li><li>Microsoft Visual soursesafe（基本已弃用）</li><li>Subversion</li><li>Git（流行，Github使用）</li></ul></li><li><p>github及pages</p><ul><li>注册github账号，例如：zjlester</li><li>创建一个仓库</li></ul></li><li><p>后续的机制</p><ul><li>创建一个静态网站</li><li>将静态网站更新</li></ul></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-      <category term="Markdown语法" scheme="https://liwanrong.coding.me/categories/Markdown%E8%AF%AD%E6%B3%95/"/>
-    
-    
-      <category term="Markdown" scheme="https://liwanrong.coding.me/tags/Markdown/"/>
     
   </entry>
   

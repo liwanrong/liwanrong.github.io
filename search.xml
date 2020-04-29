@@ -650,6 +650,56 @@
       </tags>
   </entry>
   <entry>
+    <title>Windows小软件</title>
+    <url>/2020/02/20/Common%20Skills-Windows%20Small%20Software/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="桌面美化"><a href="#桌面美化" class="headerlink" title="桌面美化"></a>桌面美化</h2><ul>
+<li>任务栏透明<ul>
+<li>Transparent TB</li>
+<li>Star</li>
+</ul>
+</li>
+<li>任务栏类dock<ul>
+<li>软媒魔方</li>
+<li>xx</li>
+</ul>
+</li>
+<li>桌面挂件<ul>
+<li>rainmeter</li>
+</ul>
+</li>
+<li>开始界面+任务栏<ul>
+<li></li>
+</ul>
+</li>
+</ul>
+<h2 id="常用工具"><a href="#常用工具" class="headerlink" title="常用工具"></a>常用工具</h2><ul>
+<li>搜索<ul>
+<li>wox</li>
+<li>listary</li>
+</ul>
+</li>
+<li>日程管理三件套<ul>
+<li>自带日历系统</li>
+<li>todo</li>
+<li>outlook</li>
+</ul>
+</li>
+<li>onenote</li>
+<li>便签<ul>
+<li>自带</li>
+<li>小孩便签<br>在我安装了</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Learning</category>
+      </categories>
+      <tags>
+        <tag>Skills</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>【个人小结】 大三上学期</title>
     <url>/2020/01/11/Personal%20Summary-Last%20Semester%20of%20Junior%20Year/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div style="text-align: center;font-size: 20px;font-style: italic;">
@@ -796,7 +846,7 @@
         <category>Learning</category>
       </categories>
       <tags>
-        <tag>Learning</tag>
+        <tag>Skills</tag>
       </tags>
   </entry>
   <entry>

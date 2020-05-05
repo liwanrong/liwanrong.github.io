@@ -309,7 +309,7 @@
 <li>hostname=inet地址</li>
 </ul>
 </li>
-<li>Nat或Nat网络  <img style="margin-left: 0; width: 600px" data-src="https://s1.ax1x.com/2020/04/22/JN1B2F.png" class="lazyload"></li>
+<li>Nat或Nat网络  <img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s1.ax1x.com/2020/04/22/JN1B2F.png" style="margin-left: 0; width: 600px" /></li>
 <li><code>sudo apt-get install openssh-server</code><ul>
 <li>启动：<code>sudo /etc/init.d/ssh start</code></li>
 <li>关闭：<code>sudo /etc/init.d/ssh stop</code></li>
@@ -442,7 +442,7 @@
 <li>层级目录：用-p参数 <code>mkdir -p a/b/c</code></li>
 </ul>
 </li>
-<li>同级目录下，文件与文件夹不能重名      <img style="margin-left: 0;width: 400px" data-src="https://s1.ax1x.com/2020/04/22/JtVPjf.png" class="lazyload">
+<li>同级目录下，文件与文件夹不能重名      <img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s1.ax1x.com/2020/04/22/JtVPjf.png" style="margin-left: 0;width: 400px">
 
 </li>
 </ul>
@@ -521,7 +521,7 @@
 </ul>
 </li>
 </ul>
-<h4 id="echo：显示命令"><a href="#echo：显示命令" class="headerlink" title="echo：显示命令"></a>echo：显示命令</h4><img style="margin-left: 0;width: 500px" data-src="https://s1.ax1x.com/2020/04/22/JtVFu8.png" class="lazyload">]]></content>
+<h4 id="echo：显示命令"><a href="#echo：显示命令" class="headerlink" title="echo：显示命令"></a>echo：显示命令</h4><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s1.ax1x.com/2020/04/22/JtVFu8.png" style="margin-left: 0;width: 500px">]]></content>
       <categories>
         <category>创客与学科教学应用</category>
       </categories>
@@ -771,7 +771,7 @@
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![]()</span><br><span class="line">![](https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg)</span><br></pre></td></tr></table></figure>
 
 <p>(个人更推荐HTML的方式插入图片)</p>
-<img style="width: 270px;" data-src="https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg " class="lazyload">
+<img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg " style="width: 270px;">
 
 <h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ul>
 <li>访问sublime text 官网，获取试用下载</li>
@@ -873,7 +873,7 @@
     <url>/2019/11/09/Blog%20Building-Personal%20Blog%20Building%20Based%20on%20Hexo+GitHub/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="note primary">
     <p>
-       本文档更新于2019年11月15日。新增插件<b>文章加密</b>。
+       本文档更新于2020年05月05日。新增<b>gitee+github双线部署</b>。
     </p>
 </div>
 　　为了尽早体会到拥有一个个人博客的乐趣，在使用Typecho搭建个人博客后由于不想出云服务器的费用(在此感谢大师第一时间给我提供帮助)，我便转而投入到了hexo+github中。整体使用过程是较为流畅的，唯一一点不适应的是每天都要面对黑色的Git Bash......
@@ -897,7 +897,7 @@
 <p>　　域名可以在<a href="https://homenew.console.aliyun.com/" target="_blank" rel="noopener">阿里云</a>购买。<br>　　在ping github提供的域名时，可能会出现请求超时的情况，但是并没有什么影响，只要得到github pages的ip地址即可。</p>
 <h3 id="FAQ2：Git"><a href="#FAQ2：Git" class="headerlink" title="FAQ2：Git"></a>FAQ2：Git</h3><p>　　由于是外网的原因，从Git官网下载Git时非常非常慢，在这里分享自己使用的Git。</p>
 <ul>
-<li><img style="margin-left: 0;width: 100px" data-src="https://s2.ax1x.com/2019/11/09/MnSZnS.jpg" class="lazyload">
+<li><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s2.ax1x.com/2019/11/09/MnSZnS.jpg" style="margin-left: 0;width: 100px">
 
 </li>
 </ul>
@@ -980,7 +980,7 @@
   <entry>
     <title>【教学反思】 鱼与熊掌，可兼得否？</title>
     <url>/2019/10/27/Teaching%20Reflection-Can%20We%20Have%20Both/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　英国哲学家席勒曾说道：“只有当人充分是人时，他才游戏，只有当人游戏的时候，他才完全是人。”诚然，在社会发展的必然过程中，游戏作为人类必备的娱乐模式，在人类生活中具有不可或缺的意义。<br>　　在这学期的教学游戏设计与开发课程中，随着学习的深入和专业的特点，在细致研读课本第六章——游戏和学习的挑战与机遇，对此，我产生了如此疑问：“鱼与熊掌，可兼得否”。作为一个不沉溺游戏的人，我个人对游戏始终保持着一种排斥的态度。回顾我所玩过的屈指可数的游戏，最多接触的不外乎两类，一类是密室逃脱，一类是非对称对抗类游戏。在此，我主要对非对称对抗类游戏作出介绍。<br>　　市面上颇为出名的非对称对抗类游戏则是《第五人格》。这是一款由网易开发的非对称性对抗竞技类游戏，玩家将扮演侦探奥尔菲斯，在收到一封神秘的委托信后，进入恶名昭著的庄园调查一件失踪案。在进行证据调查过程中，玩家扮演的奥尔菲斯将采用演绎法，对案情进行回顾。在案情回顾时，玩家可以选择扮演监管者或求生者，展开激烈的对抗。而在调查的过程，无限接近事实时，却发现越来越不可思议的真相。荒诞哥特画风，悬疑烧脑剧情，刺激的1V4“猫鼠追逃游戏”的对抗玩法，都将给玩家带来全新的游戏体验。<br><img style="margin-bottom: -30px" data-src="https://s2.ax1x.com/2019/11/08/MVp228.jpg" class="lazyload"><br>　　《第五人格》在带来难忘的游戏体验的基础上，具有画风优质、情节新颖、角色多元、奖惩明确、易于操作这五大特点。这是设计一个好游戏所必备的，也是一个优秀的游戏设计者需优先考虑的。越来越多的教育人士更关注游戏的严谨性和剧情性，而不是将游戏体验建立在简单的完成任务时所收获的金币等奖励。这一点，对我们设计教育游戏具有重大的启发性意义。每个人物角色必须拥有其鲜明的性格特点和清晰的故事线，而每个人物并不是脱离于整个游戏所存在的，而是由多个人物共同构成庞大的故事情节。<br>　　虽然我曾一段时间中沉溺于《第五人格》的新颖情境和其优质画风中，但我却对教育与游戏的融合产生了深深的怀疑。我认为，应用教育游戏辅助教学仍是困难重重。首先，教育游戏在课堂中的应用与传统的教学模式存在一定的争论，课外教育游戏辅助学习仍不被家长们所接受。不可否认，教育游戏实现了一种新的可能，各项研究均表示，教育游戏对于辅助学生学习具有促进作用，但如何融合、怎样结合始终是值得不断探讨的问题。<br>　　在教育游戏的应用领域，破解这一困境需从两方面着手。首先要澄清教育游戏导致消极影响的原因，让教育界对辅助类教育游戏的普及有基本的应对措施；其次是认真开发高质量的教育游戏，使其在内容、操作等多方面得到教育家、教师、家长和学生的认可。并通过多元化模式，推进教育游戏的辅助教学的应用。<br>　　对于教育与电子游戏的融合，不少教育学专家提出新观点：实现教育的游戏化。作为一名学生，我认为，游戏化教学固然能够让学生较传统式教学更为迅捷地掌握知识，但会存在让学生重心倾斜的问题，且该模式只适合低年级学段学生，并不适合初高中学生。初高中学生更多将重心倾斜于中高考，一味地将教育游戏化会影响到学生的正常学习和学习成绩。<br>　　教育之路，任重而道远，作为一名教技学子，在教育游戏设计的过程中，首要考虑的重点应是通过教育游戏希望实现怎样的效果，取得怎样的绩效，而不是仅制作教育游戏。对此，我认为我们需要坚实的教学设计能力和教材分析能力，教育游戏源于游戏，但高于游戏，在游戏与教学中，需寻找合适的平衡点，明确教育游戏不能替代传统课堂、不能替代课后练习的基本特点，针对这些现状设计更适合于辅助教学的教育游戏，实现教育游戏在课程内外的辅助作用。<br>　　“鱼与熊掌，可兼得否”，在今后的学习中，质疑能力与创新能力始终是我需要重点关注的两个方面。我将持续思索，不断丰富自身的理论知识，只有有所思，才有所悟，才有提高。</p>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　英国哲学家席勒曾说道：“只有当人充分是人时，他才游戏，只有当人游戏的时候，他才完全是人。”诚然，在社会发展的必然过程中，游戏作为人类必备的娱乐模式，在人类生活中具有不可或缺的意义。<br>　　在这学期的教学游戏设计与开发课程中，随着学习的深入和专业的特点，在细致研读课本第六章——游戏和学习的挑战与机遇，对此，我产生了如此疑问：“鱼与熊掌，可兼得否”。作为一个不沉溺游戏的人，我个人对游戏始终保持着一种排斥的态度。回顾我所玩过的屈指可数的游戏，最多接触的不外乎两类，一类是密室逃脱，一类是非对称对抗类游戏。在此，我主要对非对称对抗类游戏作出介绍。<br>　　市面上颇为出名的非对称对抗类游戏则是《第五人格》。这是一款由网易开发的非对称性对抗竞技类游戏，玩家将扮演侦探奥尔菲斯，在收到一封神秘的委托信后，进入恶名昭著的庄园调查一件失踪案。在进行证据调查过程中，玩家扮演的奥尔菲斯将采用演绎法，对案情进行回顾。在案情回顾时，玩家可以选择扮演监管者或求生者，展开激烈的对抗。而在调查的过程，无限接近事实时，却发现越来越不可思议的真相。荒诞哥特画风，悬疑烧脑剧情，刺激的1V4“猫鼠追逃游戏”的对抗玩法，都将给玩家带来全新的游戏体验。<br><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s2.ax1x.com/2019/11/08/MVp228.jpg" style="margin-bottom: -30px"><br>　　《第五人格》在带来难忘的游戏体验的基础上，具有画风优质、情节新颖、角色多元、奖惩明确、易于操作这五大特点。这是设计一个好游戏所必备的，也是一个优秀的游戏设计者需优先考虑的。越来越多的教育人士更关注游戏的严谨性和剧情性，而不是将游戏体验建立在简单的完成任务时所收获的金币等奖励。这一点，对我们设计教育游戏具有重大的启发性意义。每个人物角色必须拥有其鲜明的性格特点和清晰的故事线，而每个人物并不是脱离于整个游戏所存在的，而是由多个人物共同构成庞大的故事情节。<br>　　虽然我曾一段时间中沉溺于《第五人格》的新颖情境和其优质画风中，但我却对教育与游戏的融合产生了深深的怀疑。我认为，应用教育游戏辅助教学仍是困难重重。首先，教育游戏在课堂中的应用与传统的教学模式存在一定的争论，课外教育游戏辅助学习仍不被家长们所接受。不可否认，教育游戏实现了一种新的可能，各项研究均表示，教育游戏对于辅助学生学习具有促进作用，但如何融合、怎样结合始终是值得不断探讨的问题。<br>　　在教育游戏的应用领域，破解这一困境需从两方面着手。首先要澄清教育游戏导致消极影响的原因，让教育界对辅助类教育游戏的普及有基本的应对措施；其次是认真开发高质量的教育游戏，使其在内容、操作等多方面得到教育家、教师、家长和学生的认可。并通过多元化模式，推进教育游戏的辅助教学的应用。<br>　　对于教育与电子游戏的融合，不少教育学专家提出新观点：实现教育的游戏化。作为一名学生，我认为，游戏化教学固然能够让学生较传统式教学更为迅捷地掌握知识，但会存在让学生重心倾斜的问题，且该模式只适合低年级学段学生，并不适合初高中学生。初高中学生更多将重心倾斜于中高考，一味地将教育游戏化会影响到学生的正常学习和学习成绩。<br>　　教育之路，任重而道远，作为一名教技学子，在教育游戏设计的过程中，首要考虑的重点应是通过教育游戏希望实现怎样的效果，取得怎样的绩效，而不是仅制作教育游戏。对此，我认为我们需要坚实的教学设计能力和教材分析能力，教育游戏源于游戏，但高于游戏，在游戏与教学中，需寻找合适的平衡点，明确教育游戏不能替代传统课堂、不能替代课后练习的基本特点，针对这些现状设计更适合于辅助教学的教育游戏，实现教育游戏在课程内外的辅助作用。<br>　　“鱼与熊掌，可兼得否”，在今后的学习中，质疑能力与创新能力始终是我需要重点关注的两个方面。我将持续思索，不断丰富自身的理论知识，只有有所思，才有所悟，才有提高。</p>
 ]]></content>
       <categories>
         <category>Major Learning</category>
@@ -994,7 +994,7 @@
     <url>/2019/10/25/Blog%20Framework-Typecho/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　这周二由于微信推送的失误，导致一天没有推送，于是在上午课后下午党家值班时，想起自己还没有实现搞一个网站的小愿望。刚好本学期由于课程需要，在电脑上自己配置了WampServer，加上看了大师之前的个人博客后心痒难耐，我便想搭建一个属于自己的个人博客。<br>　　课上阮老师也推荐了相关工具WordPress，但在和大师的聊天中，了解到WordPress不够简洁轻量，于是便选择了大师所用的typecho，一款轻量简约型的博客。断断续续使用三天后，感觉甚好。现分享一下自己的使用心得：</p>
 <h2 id="简约"><a href="#简约" class="headerlink" title="简约"></a>简约</h2><p>　　根据课上配置moodle的经验，首先，从typecho官网下载typecho安装包，解压后，放于wamp64/www文件夹下，解压后发现文件名为build。其次，开启wampserver，地址栏输入localhost/build，进入配置页面进行基本的配置（密码，站点等），进入typecho的后台管理界面。（这一段由于没有遇到什么大问题故而有点忘）<br>　　进入后台后，基本的界面点点点都能明白，在此不做赘述。总的来说，typecho提供了一套简洁的机制，界面主题，插件，都是自己嵌入的。虽然我没有学过php，但在查阅相关资料了解php的基本格式后，只要能看懂，能修改，就已经算达成小目标了。（具体php怎么写有空再学吧，毕竟我精力有限）<br>　　作为一个颜控的女娃娃，在基本配置好后，我便开启了扒扒扒模式。</p>
-<h2 id="多样"><a href="#多样" class="headerlink" title="多样"></a>多样</h2><p>　　先放一张这两天自己捣鼓出的一个基本界面，从图中可以看出，这个界面基本实现了更换主题，添加看板娘，下雪特效。但字体、功能等方面并不是很完善，且我个人对php的构造并不是很了解（痛苦.jpg）。<br><img style="margin-bottom: -30px" data-src="https://s2.ax1x.com/2019/11/08/MVpRxS.png" class="lazyload"><br>　　在这三天的琢磨中，我主要实现了三个功能，更换主题，尝试插件的使用，添加js特效，其中看板娘和js特效耗费了我大量的时间研究琢磨，过程辛酸艰苦，令人想吐血（开玩笑其实还可）<br>　　网上各路大神分享了各类神帖，我主要将其整理归类如下：</p>
+<h2 id="多样"><a href="#多样" class="headerlink" title="多样"></a>多样</h2><p>　　先放一张这两天自己捣鼓出的一个基本界面，从图中可以看出，这个界面基本实现了更换主题，添加看板娘，下雪特效。但字体、功能等方面并不是很完善，且我个人对php的构造并不是很了解（痛苦.jpg）。<br><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s2.ax1x.com/2019/11/08/MVpRxS.png" style="margin-bottom: -30px"><br>　　在这三天的琢磨中，我主要实现了三个功能，更换主题，尝试插件的使用，添加js特效，其中看板娘和js特效耗费了我大量的时间研究琢磨，过程辛酸艰苦，令人想吐血（开玩笑其实还可）<br>　　网上各路大神分享了各类神帖，我主要将其整理归类如下：</p>
 <h3 id="主题插件类"><a href="#主题插件类" class="headerlink" title="主题插件类"></a>主题插件类</h3><p>　　我主要是从GitHub和Typecho Themes中获取主题，其中Typecho Themes中的资源大部分来源于GitHub，其中的主题下载后直接加入themes文件夹中，根据各个主题的GitHub说明文档即可完成主题和插件的更改调用。</p>
 <h3 id="看板娘插件（即右下角的小人）"><a href="#看板娘插件（即右下角的小人）" class="headerlink" title="看板娘插件（即右下角的小人）"></a>看板娘插件（即右下角的小人）</h3><p>看板娘插件是我耗费时间最多，扒帖最多的一个插件，主要使用大佬的现成插件，将不同的看板娘加入其中。网上扒扒有非常多的教程和帖子，但不足之处是缺乏古风系列小人的live2d纸片小人，教程也相对缺乏（由于Live2d官网是日文的，谷歌翻译不准有时会有漏洞），故暂时只能使用大佬提供的现成版本，</p>
 <h3 id="js特效"><a href="#js特效" class="headerlink" title="js特效"></a>js特效</h3><p>　　在我的页面中，我使用了鼠标点击出现爱心的特效，随便扒扒帖子一堆堆，但在此需要说明几点问题：<br>　　　①引用该特效的js文件需放在admin文件夹<br>　　　②修改时，修改的是footer.php（在这里不得不怪自己大脑不好忘记了html的基本结构）<br>　　以上是一些基本的使用心得，有空会修改扩充一下。</p>

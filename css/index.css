@@ -3764,7 +3764,7 @@ img {
 #rightside {
   position: fixed;
   right: -38px;
-  bottom: 40px;
+  bottom: 60px;
   opacity: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
   filter: alpha(opacity=0);

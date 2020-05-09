@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Blog Beautification-Butterfly Theme Modification</title>
+    <url>/posts/503970b4.html</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
+  </entry>
+  <entry>
     <title>Task08：Git与Github使用初步</title>
-    <url>/2020/04/22/Task08%EF%BC%9AGit%E4%B8%8EGithub%E4%BD%BF%E7%94%A8%E5%88%9D%E6%AD%A5/</url>
+    <url>/posts/cd7c74a3.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="Git简介"><a href="#Git简介" class="headerlink" title="Git简介"></a>Git简介</h3><ul>
 <li>版本控制系统（Version Control System, VCS）</li>
 <li>其它VCS: CVS, Subersion, Visual source safe</li>
@@ -80,7 +85,7 @@
   </entry>
   <entry>
     <title>Task07：远程文件传输的几种方案</title>
-    <url>/2020/04/22/Task07%EF%BC%9A%E8%BF%9C%E7%A8%8B%E6%96%87%E4%BB%B6%E4%BC%A0%E8%BE%93%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E6%A1%88/</url>
+    <url>/posts/bf78af7a.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="scp"><a href="#scp" class="headerlink" title="scp"></a>scp</h3><h3 id="scp扩展：Winscp"><a href="#scp扩展：Winscp" class="headerlink" title="scp扩展：Winscp"></a>scp扩展：Winscp</h3><h3 id="sftp：可以理解为从ssh通道走的FTP"><a href="#sftp：可以理解为从ssh通道走的FTP" class="headerlink" title="sftp：可以理解为从ssh通道走的FTP"></a>sftp：可以理解为从ssh通道走的FTP</h3><h4 id="可以使用的客户端"><a href="#可以使用的客户端" class="headerlink" title="可以使用的客户端"></a>可以使用的客户端</h4><ul>
 <li>Winscp</li>
 <li>Filezilla</li>
@@ -136,7 +141,7 @@
   </entry>
   <entry>
     <title>Task06：Linux用户管理</title>
-    <url>/2020/04/22/Task06%EF%BC%9ALinux%E7%94%A8%E6%88%B7%E7%AE%A1%E7%90%86/</url>
+    <url>/posts/3fcb632.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="创建、删除组"><a href="#创建、删除组" class="headerlink" title="创建、删除组"></a>创建、删除组</h3><ul>
 <li>创建组：groupadd</li>
 <li>删除组：groupdel<ul>
@@ -204,7 +209,7 @@
   </entry>
   <entry>
     <title>Task05：Linux用户权限</title>
-    <url>/2020/04/22/Task05%EF%BC%9ALinux%E7%94%A8%E6%88%B7%E6%9D%83%E9%99%90/</url>
+    <url>/posts/708c6185.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="用户权限"><a href="#用户权限" class="headerlink" title="用户权限"></a>用户权限</h3><ul>
 <li>以ls -l为例<br>  -rw-rw-r– 1 lwr lwr  398 4月   1 00:16 id_rsa.pub</li>
 <li>依次：权限标识符，硬连接数，用户与组，文件容量，最后修改日期，名称</li>
@@ -267,7 +272,7 @@
   </entry>
   <entry>
     <title>Task04：Linux远程管理</title>
-    <url>/2020/04/22/Task04%EF%BC%9ALinux%E8%BF%9C%E7%A8%8B%E7%AE%A1%E7%90%86/</url>
+    <url>/posts/d0c7bbdc.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Ctrl-Alt-T:启动终端</p>
 <h3 id="shutdown：开关机及重启命令"><a href="#shutdown：开关机及重启命令" class="headerlink" title="shutdown：开关机及重启命令"></a>shutdown：开关机及重启命令</h3><ul>
 <li>默认一分钟关机</li>
@@ -388,7 +393,7 @@
   </entry>
   <entry>
     <title>Task03：Linux 基本命令</title>
-    <url>/2020/04/22/Task03%EF%BC%9ALinux%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4/</url>
+    <url>/posts/d249b5c4.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="文件与目录"><a href="#文件与目录" class="headerlink" title="文件与目录"></a>文件与目录</h3><ul>
 <li>分区：Linux没有分区概念，Linux以目录的组织，只有根目录<ul>
 <li>/bin：可执行文件</li>
@@ -531,7 +536,7 @@
   </entry>
   <entry>
     <title>Task02：Ubuntu基本设置</title>
-    <url>/2020/04/22/Task02%EF%BC%9AUbuntu%E5%9F%BA%E6%9C%AC%E8%AE%BE%E7%BD%AE/</url>
+    <url>/posts/87e2db90.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>拓展：虚拟机镜像分享站点：<a href="https://www/osboxes.org/ubuntusf.net" target="_blank" rel="noopener">https://www/osboxes.org/ubuntusf.net</a></p>
 <h3 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h3><ul>
 <li>用户、应用软件、操作系统（内核（管理硬件系统）-系统调用，终端命令，图形界面））、硬件系统</li>
@@ -607,7 +612,7 @@
   </entry>
   <entry>
     <title>Task01：Ubuntu安装与配置</title>
-    <url>/2020/04/22/Task01%EF%BC%9AUbuntu%E5%AE%89%E8%A3%85%E4%B8%8E%E9%85%8D%E7%BD%AE/</url>
+    <url>/posts/57014c79.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="认识Ubuntu"><a href="#认识Ubuntu" class="headerlink" title="认识Ubuntu"></a>认识Ubuntu</h3><ul>
 <li>最流行的发行版</li>
 <li>与Rasbian同源于Debian<ul>
@@ -651,7 +656,7 @@
   </entry>
   <entry>
     <title>Windows小软件</title>
-    <url>/2020/02/20/Common%20Skills-Windows%20Small%20Software/</url>
+    <url>/posts/a063048c.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="桌面美化"><a href="#桌面美化" class="headerlink" title="桌面美化"></a>桌面美化</h2><ul>
 <li>任务栏透明<ul>
 <li>Transparent TB</li>
@@ -701,7 +706,7 @@
   </entry>
   <entry>
     <title>【个人小结】 大三上学期</title>
-    <url>/2020/01/11/Personal%20Summary-Last%20Semester%20of%20Junior%20Year/</url>
+    <url>/posts/835fd67d.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div style="text-align: center;font-size: 20px;font-style: italic;">
     <p>
        <strong>“</strong>
@@ -732,7 +737,7 @@
   </entry>
   <entry>
     <title>【教学设计】 《基于Hexo+Github的个人博客搭建》教学设计</title>
-    <url>/2019/12/29/Teaching%20Design-Teaching%20Design%20of%20Building%20Personal%20Blog%20based%20on%20Hexo+GitHub/</url>
+    <url>/posts/54caf5f9.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="《基于Hexo-Github的个人博客搭建》教学设计"><a href="#《基于Hexo-Github的个人博客搭建》教学设计" class="headerlink" title="《基于Hexo+Github的个人博客搭建》教学设计"></a>《基于Hexo+Github的个人博客搭建》教学设计</h2>
 
 	<div class="row">
@@ -747,7 +752,7 @@
   </entry>
   <entry>
     <title>【编程语言】 Markdown</title>
-    <url>/2019/12/09/Programming%20Language-Markdown/</url>
+    <url>/posts/ecd9ccb9.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h2><ul>
 <li>标题用“#”或“-”开头，个数表示标题的级数，相当于h1-h6</li>
 <li>不加任何标识的文本表示正文</li>
@@ -829,7 +834,7 @@
   </entry>
   <entry>
     <title>【常用技巧】 压缩图片的方法</title>
-    <url>/2019/12/02/Common%20Skills-How%20to%20Compress%20Pictures/</url>
+    <url>/posts/28c80089.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　最近的微信推送中，小朋友们的排版质量是越来越好了，但是普遍存在的问题是大家都不太会压缩图片。因此，在这篇文章中，我将分享<strong>压缩图片</strong>的几种方法。</p>
 <h2 id="PS压缩图片方法"><a href="#PS压缩图片方法" class="headerlink" title="PS压缩图片方法"></a><a href="https://www.bilibili.com/video/av70608546/" target="_blank" rel="noopener">PS压缩图片方法</a></h2><p>　　PS压缩图片应该是众多压缩图片方法中最常用的一种,该方法可针对任意图片,且使用过程中较为方便。</p>
 <p><strong>附：PS CC 2019安装包</strong><br>链接： <a href="https://pan.baidu.com/s/1fw-GRbGy_xADON0abAHxXw" target="_blank" rel="noopener">https://pan.baidu.com/s/1fw-GRbGy_xADON0abAHxXw</a><br>提取码：91yh </p>
@@ -851,7 +856,7 @@
   </entry>
   <entry>
     <title>【Secrets】 One</title>
-    <url>/2019/11/14/Secrets-One/</url>
+    <url>/posts/d1a2bd4f.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
   <div class="hbe-input-container">
   <input type="password" id="hbePass" placeholder="密码：我的农历生日" />
@@ -870,7 +875,7 @@
   </entry>
   <entry>
     <title>【博客搭建】 基于Hexo+GitHub的个人博客搭建</title>
-    <url>/2019/11/09/Blog%20Building-Personal%20Blog%20Building%20Based%20on%20Hexo+GitHub/</url>
+    <url>/posts/e62eaae1.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="note info">
             <p>本文档更新于2020年05月06日。</p>
           </div>
@@ -914,11 +919,11 @@
 <h4 id="魔改主题"><a href="#魔改主题" class="headerlink" title="魔改主题"></a>魔改主题</h4><p>　　根据<a href="https://blog.clouder.im/" target="_blank" rel="noopener">＠云玩家</a>的博客，可以对Butterfly主题进行一些初步的修改，这位大哥已经将自己的魔改主题开源了，需要可自取。</p>
 <ul>
 <li><p><a href="https://blog.clouder.im/hexo/butterfly_modify/" target="_blank" rel="noopener">Butterfly 主题魔改记录</a></p>
-<p>另外，根据<a href="https://blog.csdn.net/cungudafa/article/details/105699384" target="_blank" rel="noopener">hexo（butterfly）蝴蝶主题+个性美化</a>修改了留言板。</p>
+<p>另外，根据<a href="https://blog.csdn.net/cungudafa/article/details/105699384" target="_blank" rel="noopener">hexo（butterfly）蝴蝶主题+个性美化</a>修改了about me。</p>
 </li>
 </ul>
 <h3 id="Github延迟"><a href="#Github延迟" class="headerlink" title="Github延迟"></a>Github延迟</h3><p>　　如果在搭建过程中，出现“404 Not Found”，在确认其余操作无误后，唯一的原因是由于Github自身的原因。Github搭建在东南亚，白天速度还是可的，一到晚上就进入死机状态。这便出现了我一晚上提交了五次到github上但网页中没有一点变化的情况。<br>　　如果在访问我的博客的过程中，出现404，加载过慢，请保持愉悦的心情，再刷新一次。<br>　　主页中，我已挂出Gitee上的博客链接，如果需要提速请访问<a href="https://li_wanrong.gitee.io" target="_blank" rel="noopener">该链接</a>。</p>
-<h3 id="延迟修复"><a href="#延迟修复" class="headerlink" title="延迟修复"></a>延迟修复</h3><p>　　主要参考这位大神的杰作,一个js引用结束一切战斗。</p>
+<h3 id="延迟修复"><a href="#延迟修复" class="headerlink" title="延迟修复"></a>延迟修复</h3><p>　　主要参考大佬<a href="https://blog.clouder.im/" target="_blank" rel="noopener">＠云玩家</a>的杰作,一个js引用结束一切战斗。</p>
 <ul>
 <li><a href="https://blog.zplayer.cloud/hexo/jsdelivr_js/" target="_blank" rel="noopener">仅引入 JS 实现博客 CDN 加速</a>　</li>
 </ul>
@@ -927,7 +932,7 @@
 <ul>
 <li><a href="https://www.jianshu.com/p/89440678ee3c" target="_blank" rel="noopener">Hexo博客NexT主题美化之新增看板娘(能说话、能换装)</a></li>
 </ul>
-<p>　　在这里有一点说明，使用<a href="https://github.com/stevenjoezhang/live2d-widget" target="_blank" rel="noopener">张书樵大神的项目</a>时，要先将看板娘插件卸载后方可调用。</p>
+<p>　　在这里有一点说明，使用<a href="https://github.com/stevenjoezhang/live2d-widget" target="_blank" rel="noopener">张书樵大神的项目</a>（推荐）时，要先将看板娘插件卸载后方可调用。</p>
 <h3 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h3><p>　　Hexo由于是静态页面，故而只能使用第三方评论系统，推荐valine。使用方式可参考：</p>
 <ul>
 <li><a href="https://baijiahao.baidu.com/s?id=1608153490321015332&wfr=spider&for=pc" target="_blank" rel="noopener">hexo评论系统之valine快速使用</a></li>
@@ -977,7 +982,7 @@
   </entry>
   <entry>
     <title>【编程语言】 SQL Server</title>
-    <url>/2019/11/09/Programming%20Language-SQL%20Server/</url>
+    <url>/posts/f7b4d6b5.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　虽然今年没有良辉老师的课，但我还是在动态网站这一部分中保持着高涨的热情。从“要”作业到“给”作业的身份转化，让我意识到我竟然已经成为了一个大三老学姐。就在几周前，大二部门结识的教技小学妹找我要了数据库实验六的作业，在与小学妹的聊天中，我了解到她其实并不清楚《数据库技术基础》这门课是做什么用的。对数据库的功能，我的理解是，<strong><em>在网页中如果填写表单，做测试题，都是将这些数据记录进数据库，研究者会根据这些数据进行分析，或者在别的页面读取出来，举个例子，譬如qq空间的留言板，给他人留言后，就能看到自己在他人空间的留言，经历了数据库写入，读取的过程</em></strong>。好吧，其实这是我回复学妹的话，可能理解不是那么准确，数据库就像是一个大仓库，每一次数据请求，都是源于数据库的支持，在数据库的帮助下，减少了代码量，增加了动态性。结合七八九三个月做省赛的一些经验，我便在这篇文章中分享一些SQL Server常用的语句。</p>
 <h2 id="查询"><a href="#查询" class="headerlink" title="查询　　"></a>查询　　</h2><h3 id="查询所有字段"><a href="#查询所有字段" class="headerlink" title="查询所有字段"></a>查询所有字段</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> <span class="keyword">table</span>;</span><br></pre></td></tr></table></figure>
 <h3 id="查询指定字段"><a href="#查询指定字段" class="headerlink" title="查询指定字段"></a>查询指定字段</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> l1,l2 <span class="keyword">from</span> <span class="keyword">table</span>;</span><br></pre></td></tr></table></figure>
@@ -1008,7 +1013,7 @@
   </entry>
   <entry>
     <title>【教学反思】 鱼与熊掌，可兼得否？</title>
-    <url>/2019/10/27/Teaching%20Reflection-Can%20We%20Have%20Both/</url>
+    <url>/posts/b680ddf9.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　英国哲学家席勒曾说道：“只有当人充分是人时，他才游戏，只有当人游戏的时候，他才完全是人。”诚然，在社会发展的必然过程中，游戏作为人类必备的娱乐模式，在人类生活中具有不可或缺的意义。<br>　　在这学期的教学游戏设计与开发课程中，随着学习的深入和专业的特点，在细致研读课本第六章——游戏和学习的挑战与机遇，对此，我产生了如此疑问：“鱼与熊掌，可兼得否”。作为一个不沉溺游戏的人，我个人对游戏始终保持着一种排斥的态度。回顾我所玩过的屈指可数的游戏，最多接触的不外乎两类，一类是密室逃脱，一类是非对称对抗类游戏。在此，我主要对非对称对抗类游戏作出介绍。<br>　　市面上颇为出名的非对称对抗类游戏则是《第五人格》。这是一款由网易开发的非对称性对抗竞技类游戏，玩家将扮演侦探奥尔菲斯，在收到一封神秘的委托信后，进入恶名昭著的庄园调查一件失踪案。在进行证据调查过程中，玩家扮演的奥尔菲斯将采用演绎法，对案情进行回顾。在案情回顾时，玩家可以选择扮演监管者或求生者，展开激烈的对抗。而在调查的过程，无限接近事实时，却发现越来越不可思议的真相。荒诞哥特画风，悬疑烧脑剧情，刺激的1V4“猫鼠追逃游戏”的对抗玩法，都将给玩家带来全新的游戏体验。<br><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s2.ax1x.com/2019/11/08/MVp228.jpg" style="margin-bottom: -30px"><br>　　《第五人格》在带来难忘的游戏体验的基础上，具有画风优质、情节新颖、角色多元、奖惩明确、易于操作这五大特点。这是设计一个好游戏所必备的，也是一个优秀的游戏设计者需优先考虑的。越来越多的教育人士更关注游戏的严谨性和剧情性，而不是将游戏体验建立在简单的完成任务时所收获的金币等奖励。这一点，对我们设计教育游戏具有重大的启发性意义。每个人物角色必须拥有其鲜明的性格特点和清晰的故事线，而每个人物并不是脱离于整个游戏所存在的，而是由多个人物共同构成庞大的故事情节。<br>　　虽然我曾一段时间中沉溺于《第五人格》的新颖情境和其优质画风中，但我却对教育与游戏的融合产生了深深的怀疑。我认为，应用教育游戏辅助教学仍是困难重重。首先，教育游戏在课堂中的应用与传统的教学模式存在一定的争论，课外教育游戏辅助学习仍不被家长们所接受。不可否认，教育游戏实现了一种新的可能，各项研究均表示，教育游戏对于辅助学生学习具有促进作用，但如何融合、怎样结合始终是值得不断探讨的问题。<br>　　在教育游戏的应用领域，破解这一困境需从两方面着手。首先要澄清教育游戏导致消极影响的原因，让教育界对辅助类教育游戏的普及有基本的应对措施；其次是认真开发高质量的教育游戏，使其在内容、操作等多方面得到教育家、教师、家长和学生的认可。并通过多元化模式，推进教育游戏的辅助教学的应用。<br>　　对于教育与电子游戏的融合，不少教育学专家提出新观点：实现教育的游戏化。作为一名学生，我认为，游戏化教学固然能够让学生较传统式教学更为迅捷地掌握知识，但会存在让学生重心倾斜的问题，且该模式只适合低年级学段学生，并不适合初高中学生。初高中学生更多将重心倾斜于中高考，一味地将教育游戏化会影响到学生的正常学习和学习成绩。<br>　　教育之路，任重而道远，作为一名教技学子，在教育游戏设计的过程中，首要考虑的重点应是通过教育游戏希望实现怎样的效果，取得怎样的绩效，而不是仅制作教育游戏。对此，我认为我们需要坚实的教学设计能力和教材分析能力，教育游戏源于游戏，但高于游戏，在游戏与教学中，需寻找合适的平衡点，明确教育游戏不能替代传统课堂、不能替代课后练习的基本特点，针对这些现状设计更适合于辅助教学的教育游戏，实现教育游戏在课程内外的辅助作用。<br>　　“鱼与熊掌，可兼得否”，在今后的学习中，质疑能力与创新能力始终是我需要重点关注的两个方面。我将持续思索，不断丰富自身的理论知识，只有有所思，才有所悟，才有提高。</p>
 ]]></content>
       <categories>
@@ -1020,7 +1025,7 @@
   </entry>
   <entry>
     <title>【博客框架】 Typecho</title>
-    <url>/2019/10/25/Blog%20Framework-Typecho/</url>
+    <url>/posts/d5e457ca.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　这周二由于微信推送的失误，导致一天没有推送，于是在上午课后下午党家值班时，想起自己还没有实现搞一个网站的小愿望。刚好本学期由于课程需要，在电脑上自己配置了WampServer，加上看了大师之前的个人博客后心痒难耐，我便想搭建一个属于自己的个人博客。<br>　　课上阮老师也推荐了相关工具WordPress，但在和大师的聊天中，了解到WordPress不够简洁轻量，于是便选择了大师所用的typecho，一款轻量简约型的博客。断断续续使用三天后，感觉甚好。现分享一下自己的使用心得：</p>
 <h2 id="简约"><a href="#简约" class="headerlink" title="简约"></a>简约</h2><p>　　根据课上配置moodle的经验，首先，从typecho官网下载typecho安装包，解压后，放于wamp64/www文件夹下，解压后发现文件名为build。其次，开启wampserver，地址栏输入localhost/build，进入配置页面进行基本的配置（密码，站点等），进入typecho的后台管理界面。（这一段由于没有遇到什么大问题故而有点忘）<br>　　进入后台后，基本的界面点点点都能明白，在此不做赘述。总的来说，typecho提供了一套简洁的机制，界面主题，插件，都是自己嵌入的。虽然我没有学过php，但在查阅相关资料了解php的基本格式后，只要能看懂，能修改，就已经算达成小目标了。（具体php怎么写有空再学吧，毕竟我精力有限）<br>　　作为一个颜控的女娃娃，在基本配置好后，我便开启了扒扒扒模式。</p>
 <h2 id="多样"><a href="#多样" class="headerlink" title="多样"></a>多样</h2><p>　　先放一张这两天自己捣鼓出的一个基本界面，从图中可以看出，这个界面基本实现了更换主题，添加看板娘，下雪特效。但字体、功能等方面并不是很完善，且我个人对php的构造并不是很了解（痛苦.jpg）。<br><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s2.ax1x.com/2019/11/08/MVpRxS.png" style="margin-bottom: -30px"><br>　　在这三天的琢磨中，我主要实现了三个功能，更换主题，尝试插件的使用，添加js特效，其中看板娘和js特效耗费了我大量的时间研究琢磨，过程辛酸艰苦，令人想吐血（开玩笑其实还可）<br>　　网上各路大神分享了各类神帖，我主要将其整理归类如下：</p>
@@ -1037,7 +1042,7 @@
   </entry>
   <entry>
     <title>【阅读随笔】 一</title>
-    <url>/2019/10/01/Reading%20Essay/</url>
+    <url>/posts/80e41e0.html</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　浑浑噩噩在这世间20载，不敢自称读书人，我的脾性和一个标准的读书人大不相同，太无“礼”，太“任性”。昨儿看了本令人难忘的小说，不由得想起自己十几年的读书经历 （真感叹生命之伟大）。<br>　　人生中的第一本真正意义可称之为“读”的书的是《西游记》，那是二年级的假期，一个假期我都沉浸在降妖伏魔的玄幻世界中。当时只想早些看完整个故事，但对其中的每一句诗词歌赋，都甚为喜爱。自己的见解理解，都是起码高中后才有的东西。当然名著之所以伟大，是因其在时光的长河中所具备有强不可替代性。读书有悟，大概是近几年通过个人反思才体会到的。（这会不会迟了些…）<br>　　从小到大，花在书籍上的钱不计其数，我拥有满满一书架的书，且由于本人的突发性强迫症，我的部分小说都来自同一出版社。购置原因则是：“同一出版社的书颜色一致，放着好看”，书架中的大部分都已读过，还有部分电子读物。而根据其特点，我将其分为以下几类：</p>
 <h2 id="中外名著"><a href="#中外名著" class="headerlink" title="中外名著"></a>中外名著</h2><p>　　我的书架中，大部分都是中外名著。类型众多，种类繁杂，然而以国外名著为多。在我看来，国外名著中，故事情节的架构、作者的描写手法等都是清晰明了、引人入胜的。最喜欢的一本国外名著是法国作家大仲马的《基督山伯爵》（又译《基督山伯爵复仇记》）。“一切希望都在等待之中”，当年的我视这句话为金句。时隔多年依旧觉得好有道理。当然，其他的一些小说也不错，譬如<strong>司汤达的《红与黑》；玛格丽特·米切尔的《飘》；海明威的《丧钟为谁而鸣》、《老人与海》；简·奥斯汀的《傲慢与偏见》；夏洛特·勃朗特的《简·爱》；露易莎·梅·奥尔科的《小妇人》；斯托夫人的《汤姆叔叔的小屋》；毛姆的《月亮与六便士》；弗吉尼亚·伍尔芙的《海浪》；加西亚·马尔克斯的《百年孤独》；弗·司各特·菲茨杰拉德的《了不起的盖茨比》；米奇·阿尔博姆的《相约星期二》；川端康成的《雪国》；紫式部的《源氏物语》；保罗·柯艾略的《牧羊少年奇幻之旅》；玛格丽特·阿特伍德的《使女的故事》</strong>。在相当长的一段时间中，这些小说占据着我桌上一角。并在今后的时光中，对我的思想起到了一塑造作用。<br>　　谈完国外名著，该谈谈本国名著了。国内名著呢..最爱的当属路遥的《平凡的世界》。突然发现一个非常恐怖的现象：谈及国外名著我..可以巴拉巴拉扯一堆，本国名著除了《平凡的世界》，我竟想不起第二本不错的书籍。我的天！我的文化摄入是有多少缺失…当然，并不是不看，只是好像没有办法在我的脑海中留下深刻的印象。我清晰地记得每位作家的作品。但在我的脑海中，无法形成一个具体化的印象。我的天！上苍！</p>
 <h2 id="武侠小说"><a href="#武侠小说" class="headerlink" title="武侠小说"></a>武侠小说</h2><p>　　谈及武侠，最爱金庸。“飞雪连天射白鹿，笑书神侠倚碧鸳”，金庸的小说充满着人情味儿，是生活，是家国，每本书以不同的侧重点，吸引着我。最爱的是那《射雕英雄传》，黄蓉机灵聪慧，郭靖三观超正，但是黄蓉日后却变成了我最不喜欢的样子。直到大三后，我发现我在学着接受我所不喜欢的一切现实，慢慢也理解了中年时代的黄蓉。我们都要慢慢长大，都要去适应，但只要守住本心便好。</p>

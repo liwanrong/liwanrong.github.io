@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://liwanrong.github.io/"/>
-  <updated>2020-05-09T09:50:00.414Z</updated>
+  <updated>2020-04-22T03:08:35.000Z</updated>
   <id>https://liwanrong.github.io/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Blog Beautification-Butterfly Theme Modification</title>
-    <link href="https://liwanrong.github.io/posts/503970b4.html"/>
-    <id>https://liwanrong.github.io/posts/503970b4.html</id>
-    <published>2020-05-09T09:47:27.397Z</published>
-    <updated>2020-05-09T09:50:00.414Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Task08：Git与Github使用初步</title>

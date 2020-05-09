@@ -949,7 +949,7 @@
 <ul>
 <li><a href="https://www.jianshu.com/p/9ca58d56a12a" target="_blank" rel="noopener">盘点一下免费好用的图床</a></li>
 </ul>
-<p>　　个人使用的是路过图床，总体体验还是可的，唯二不足是广告有点多，图片原图无损导致<a href="https://liwanrong.xyz/gallery/" target="_blank" rel="noopener">相册</a>页面加载非常缓慢(图片大小5~8M不等)，后期我会抽空压一下图片。</p>
+<p>　　个人使用的是路过图床，总体体验还是可的，唯二不足是广告有点多，图片原图无损导致<a href="https://liwanrong.xyz/gallery/">相册</a>页面加载非常缓慢(图片大小5~8M不等)，后期我会抽空压一下图片。</p>
 <h4 id="自建图床"><a href="#自建图床" class="headerlink" title="自建图床"></a>自建图床</h4><p>　　研究了研究<strong>自建图床</strong>，完全可以用Github/Gitee仓库代替zaix图床，具体可以参考以下几篇：</p>
 <ul>
 <li><a href="https://www.sakura521.cn/technology/picgocdn.html" target="_blank" rel="noopener">PicGo+jsDelivr+GitHub搭建免费cdn加速图床</a></li>

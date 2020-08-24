@@ -3859,7 +3859,7 @@ function bot_ui_ini() {
 	}).then(function() {
 		botui.message.add({
 			delay: 1100,
-			content: "这里是清·婉"
+			content: "这里是晚川"
 		}).then(function() {
 			botui.message.add({
 				delay: 1100,

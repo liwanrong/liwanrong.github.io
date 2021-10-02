@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>晚川</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://rongy.xyz/"/>
+  <updated>2020-04-22T03:08:35.000Z</updated>
+  <id>https://rongy.xyz/</id>
+  
+  <author>
+    <name>晚川</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Task08：Git与Github使用初步</title>
+    <link href="https://rongy.xyz/blog/cd7c74a3.html"/>
+    <id>https://rongy.xyz/blog/cd7c74a3.html</id>
+    <published>2020-04-22T03:08:35.000Z</published>
+    <updated>2020-04-22T03:08:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="Git简介"><a href="#Git简介" class="headerlink" title="Git简介"></a>Git简介</h3><ul><li>版本控制系统（Version Control System, VCS）</li><li>其它VCS: CVS, Subersion, Visual source safe</li><li>开源共享，可以自架服务器，同时使用客户端访问与应用</li><li>专用的第三方的Git服务，相当于租用了别人的Git服务器，在上面创建软件仓库并进行版本管理。</li><li>典型的Git服务：Github，Gitlab</li></ul><h3 id="Git中的基本概念"><a href="#Git中的基本概念" class="headerlink" title="Git中的基本概念"></a>Git中的基本概念</h3><ul><li>仓库：相当于一个托管的单位，一般对应一个项目</li><li>版本： 仓库中的文件的某一个状态</li></ul><h3 id="Git安装"><a href="#Git安装" class="headerlink" title="Git安装"></a>Git安装</h3><ul><li>Ubuntu或者Raspbian OS：</li><li>apt-get/apt install git</li></ul><h3 id="Git的身份认证"><a href="#Git的身份认证" class="headerlink" title="Git的身份认证"></a>Git的身份认证</h3><ul><li>一般情况下采用SSH或PGP密钥认证的方式。</li><li>参考：SSH的免密登录</li></ul><h3 id="创建Git仓库"><a href="#创建Git仓库" class="headerlink" title="创建Git仓库"></a>创建Git仓库</h3><ul><li><a href="https://github.com/" target="_blank" rel="noopener">https://github.com/</a> 注册一个账号</li><li>Repositories（仓库）中选择New</li><li>仓库地址：<ul><li><a href="https://github.com/liwanrong/ubuntu.git" target="_blank" rel="noopener">https://github.com/liwanrong/ubuntu.git</a></li><li><a href="mailto:git@github.com">git@github.com</a>:liwanrong/ubuntu.git</li></ul></li></ul><h3 id="Git初始化配置"><a href="#Git初始化配置" class="headerlink" title="Git初始化配置"></a>Git初始化配置</h3><ul><li>提前准备用户名，邮箱</li><li>git config –global user.name “用户名”</li><li>git  config –global user.email “邮箱”</li><li>ssh-keygen -t rsa -C “邮箱”</li><li>cat ~/.ssh/id_rsa.pub并将输出的内容添加到Github账户/setttings/ssh and gpg keys</li></ul><h3 id="初始化仓库"><a href="#初始化仓库" class="headerlink" title="初始化仓库"></a>初始化仓库</h3><ul><li>创建一个用作本地存储的仓库目录</li><li>Git init ：初始化仓库，相关配置在.git</li><li>.git文件尽量不要修改</li></ul><h3 id="将文件添加到仓库并提交"><a href="#将文件添加到仓库并提交" class="headerlink" title="将文件添加到仓库并提交"></a>将文件添加到仓库并提交</h3><ul><li>前置：创建一个文件，例如：readme.md</li><li>git add readme.md</li><li>git commit -am “开发日志”</li><li>git status</li></ul><h3 id="查看文件版本记录"><a href="#查看文件版本记录" class="headerlink" title="查看文件版本记录"></a>查看文件版本记录</h3><ul><li>git log 文件名查看</li><li>commit 后面的标识即为版本号</li></ul><h3 id="回退版本"><a href="#回退版本" class="headerlink" title="回退版本"></a>回退版本</h3><ul><li>git checkout 版本号 文件名</li><li>git </li></ul><h3 id="将文件上传到Git服务器"><a href="#将文件上传到Git服务器" class="headerlink" title="将文件上传到Git服务器"></a>将文件上传到Git服务器</h3><ul><li>前置：需要找到Git唱K地址，配置好SSH/GPG密钥</li><li>git remote add origin github上的地址</li><li>git push -u origin master</li></ul><h3 id="通常操作"><a href="#通常操作" class="headerlink" title="通常操作"></a>通常操作</h3><ul><li>单用户本地修改文件：<ul><li>git add</li><li>git commit</li><li>git push</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="创客与学科教学应用" scheme="https://rongy.xyz/categories/%E5%88%9B%E5%AE%A2%E4%B8%8E%E5%AD%A6%E7%A7%91%E6%95%99%E5%AD%A6%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/tags/Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Task07：远程文件传输的几种方案</title>
+    <link href="https://rongy.xyz/blog/bf78af7a.html"/>
+    <id>https://rongy.xyz/blog/bf78af7a.html</id>
+    <published>2020-04-22T03:07:40.000Z</published>
+    <updated>2020-04-22T03:07:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="scp"><a href="#scp" class="headerlink" title="scp"></a>scp</h3><h3 id="scp扩展：Winscp"><a href="#scp扩展：Winscp" class="headerlink" title="scp扩展：Winscp"></a>scp扩展：Winscp</h3><h3 id="sftp：可以理解为从ssh通道走的FTP"><a href="#sftp：可以理解为从ssh通道走的FTP" class="headerlink" title="sftp：可以理解为从ssh通道走的FTP"></a>sftp：可以理解为从ssh通道走的FTP</h3><h4 id="可以使用的客户端"><a href="#可以使用的客户端" class="headerlink" title="可以使用的客户端"></a>可以使用的客户端</h4><ul><li>Winscp</li><li>Filezilla</li><li>建议Windows中使用Chocolatey</li></ul><h4 id="远程修改实现"><a href="#远程修改实现" class="headerlink" title="远程修改实现"></a>远程修改实现</h4><ul><li>场景：需要修改远程主机上的某个文件</li><li>解决方案　<ul><li>ssh远程登录并用nano，vi编辑</li><li>先用scp、winscp等下载文件，再上传文件</li><li>在本地的文件编辑器中添加远程编辑的功能</li><li>用本地编辑器的远程修改插件<ul><li>示例：VS Code +Remote ssh<ul><li>在VSCode插件目录中搜索并安装Remote-SSH</li><li>添加主机，Ctrl +Shift +P， Remote ssh - add a new host，添加后会出现在ssh targets。</li><li>在主机项上右键，connect …</li><li>Open folder，打开远程主机上的某个目录</li></ul></li></ul></li></ul></li></ul><h4 id="Extra：Virtual-Box中客户机（ubuntu）与主机（win-10）的文件共享"><a href="#Extra：Virtual-Box中客户机（ubuntu）与主机（win-10）的文件共享" class="headerlink" title="Extra：Virtual Box中客户机（ubuntu）与主机（win 10）的文件共享"></a>Extra：Virtual Box中客户机（ubuntu）与主机（win 10）的文件共享</h4><ul><li>安装增强功能<ul><li>点击虚拟机菜单的“安装增强功能”</li><li>自动运行光盘中的启动程序</li><li>重启虚拟机</li></ul></li><li>添加共享文件夹<ul><li>共享文件夹路径：win 10上的某个目录</li><li>共享文件夹名称：随意</li><li>建议选项：自动挂载，固定分配</li><li>挂载点：一般放在/media/目录下</li></ul></li><li>有可能出现的问题：打开挂载点时提示无权限<ul><li>原因：所用的用户不在vboxsf组</li><li>vboxsf：virtual box shared folder</li><li>sudo usermod -a -G </li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="创客与学科教学应用" scheme="https://rongy.xyz/categories/%E5%88%9B%E5%AE%A2%E4%B8%8E%E5%AD%A6%E7%A7%91%E6%95%99%E5%AD%A6%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/tags/Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Task06：Linux用户管理</title>
+    <link href="https://rongy.xyz/blog/3fcb632.html"/>
+    <id>https://rongy.xyz/blog/3fcb632.html</id>
+    <published>2020-04-22T03:07:30.000Z</published>
+    <updated>2020-04-22T03:07:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="创建、删除组"><a href="#创建、删除组" class="headerlink" title="创建、删除组"></a>创建、删除组</h3><ul><li>创建组：groupadd</li><li>删除组：groupdel<ul><li>tip: 创建新用户时，会自动创建同名用户组</li></ul></li></ul><h3 id="查看组信息"><a href="#查看组信息" class="headerlink" title="查看组信息"></a>查看组信息</h3><ul><li>cat /etc/group</li></ul><h3 id="修改文件或目录的所在组"><a href="#修改文件或目录的所在组" class="headerlink" title="修改文件或目录的所在组"></a>修改文件或目录的所在组</h3><ul><li>sudo chgrp 组名、文件或目录</li><li>默认不修改子目录组信息，要递归修改：</li><li>chgrp -R 组名 目录名</li></ul><h3 id="添加用户：useradd"><a href="#添加用户：useradd" class="headerlink" title="添加用户：useradd"></a>添加用户：useradd</h3><ul><li>-g:设置所在用户组</li><li>-m :自动创建家目录</li></ul><h3 id="查看用户信息"><a href="#查看用户信息" class="headerlink" title="查看用户信息"></a>查看用户信息</h3><ul><li>cat /etc/passwd</li><li>cat /etc/passwd | grep 用户名</li><li>lester:   x:  1000:  1000:  Lester,,,  :   /home/lester  :/bin/bash<ul><li>lester:用户名</li><li>x:已经设置密码</li><li>1000：用户标识</li><li>1000: 组标识</li><li>Lester: 用户名</li><li>/home/lester: 家目录</li><li>/bin/bash： 登录时使用的bash</li></ul></li></ul><h3 id="设置用户密码"><a href="#设置用户密码" class="headerlink" title="设置用户密码"></a>设置用户密码</h3><ul><li>passwd 用户名</li><li>不跟用户名，修改自己的密码</li></ul><h3 id="删除用户"><a href="#删除用户" class="headerlink" title="删除用户"></a>删除用户</h3><ul><li>userdel 用户名</li><li>-r: 删除用户时，同时删除家目录</li></ul><h3 id="查看id"><a href="#查看id" class="headerlink" title="查看id"></a>查看id</h3><ul><li>方法一： cat /etc/passwd | grep 用户名</li><li>方法二：id <ul><li>id 用户名：显示特定用户的标识</li><li>id ：显示当前用户的标识</li></ul></li></ul><h3 id="查看当前登录的用户：who"><a href="#查看当前登录的用户：who" class="headerlink" title="查看当前登录的用户：who"></a>查看当前登录的用户：who</h3><ul><li>：0表示当前终端</li></ul><h3 id="查看当前用户的账号名：whoami"><a href="#查看当前用户的账号名：whoami" class="headerlink" title="查看当前用户的账号名：whoami"></a>查看当前用户的账号名：whoami</h3><h3 id="解决新建用户无法使用sudo"><a href="#解决新建用户无法使用sudo" class="headerlink" title="解决新建用户无法使用sudo"></a>解决新建用户无法使用sudo</h3><ul><li>原理：只有在sudo组，成为成员才可以使用sudo组权限，称为sudoer</li><li>usermode更改用户的组信息</li><li>sudo usermod -a -G sudo roy</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="创客与学科教学应用" scheme="https://rongy.xyz/categories/%E5%88%9B%E5%AE%A2%E4%B8%8E%E5%AD%A6%E7%A7%91%E6%95%99%E5%AD%A6%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/tags/Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Task05：Linux用户权限</title>
+    <link href="https://rongy.xyz/blog/708c6185.html"/>
+    <id>https://rongy.xyz/blog/708c6185.html</id>
+    <published>2020-04-22T03:07:15.000Z</published>
+    <updated>2020-04-22T03:07:15.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="用户权限"><a href="#用户权限" class="headerlink" title="用户权限"></a>用户权限</h3><ul><li>以ls -l为例<br>  -rw-rw-r– 1 lwr lwr  398 4月   1 00:16 id_rsa.pub</li><li>依次：权限标识符，硬连接数，用户与组，文件容量，最后修改日期，名称</li></ul><h4 id="权限标识符：10位"><a href="#权限标识符：10位" class="headerlink" title="权限标识符：10位"></a>权限标识符：10位</h4><ul><li>第一位：d/- （类别，d表示目录 -表示文件）</li><li>后九位：<ul><li>第一组RWX：拥有者的权限</li><li>第二组RWX：所在组的权限</li><li>第三组RWX：其他人的权限<ul><li>R：readable：可读的</li><li>W：writeable：可写的</li><li>X：exectable：可修改的</li></ul></li><li>例：<br>  rw-r–r–: 110 100 100<br>  rwxr-xr-x: 111 101 101<br>  最大的是：7；最小的是：0</li></ul></li></ul><h4 id="权限掩码及原理"><a href="#权限掩码及原理" class="headerlink" title="权限掩码及原理"></a>权限掩码及原理</h4><ul><li>rwxrwxrwx: 777 （Web程序的上传目录）</li><li>———–：000</li><li>只读：R–,100，4</li><li>读写：RW-,110，6</li><li>读取与执行：R-X，101，5</li><li>所有权限：7</li></ul><h4 id="chmod"><a href="#chmod" class="headerlink" title="chmod"></a>chmod</h4><ul><li>格式：chmod +/- rwx 文件名</li><li>方法<ul><li>chmod +/- rwx filename/directory<ul><li>chmod mask filename/directory</li></ul></li></ul></li><li>示例：文件夹的可执行权限</li><li>示例：文件夹的可执行权限（Python脚本，shell脚本）</li></ul><h3 id="超级用户"><a href="#超级用户" class="headerlink" title="超级用户"></a>超级用户</h3><h4 id="Linux用户类型："><a href="#Linux用户类型：" class="headerlink" title="Linux用户类型："></a>Linux用户类型：</h4><ul><li>-root用户：用于系统维护，具有所有权限</li><li>绝大多数的linux发行版不推荐使用root</li><li>安装时创建的为标准用户</li></ul><h4 id="sudo"><a href="#sudo" class="headerlink" title="sudo"></a>sudo</h4><ul><li>su: substitude user 替换用户</li><li>预设的身份是root</li><li>需要输入密码，有5分钟有效期<ul><li>如果未经授权，尝试使用root，会发送警告</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="创客与学科教学应用" scheme="https://rongy.xyz/categories/%E5%88%9B%E5%AE%A2%E4%B8%8E%E5%AD%A6%E7%A7%91%E6%95%99%E5%AD%A6%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/tags/Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Task04：Linux远程管理</title>
+    <link href="https://rongy.xyz/blog/d0c7bbdc.html"/>
+    <id>https://rongy.xyz/blog/d0c7bbdc.html</id>
+    <published>2020-04-22T03:06:57.000Z</published>
+    <updated>2020-04-22T03:06:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>Ctrl-Alt-T:启动终端</p><h3 id="shutdown：开关机及重启命令"><a href="#shutdown：开关机及重启命令" class="headerlink" title="shutdown：开关机及重启命令"></a>shutdown：开关机及重启命令</h3><ul><li>默认一分钟关机</li><li>取消: shutdown -c</li><li>shutdown -r 重启</li><li>定时任务： -num; hh:mm, now</li><li>远程管理时尽量不要关机或重启</li></ul><h3 id="ifconfig：网络配置"><a href="#ifconfig：网络配置" class="headerlink" title="ifconfig：网络配置"></a>ifconfig：网络配置</h3><ul><li><code> ifconfig | grep</code></li></ul><h3 id="ping"><a href="#ping" class="headerlink" title="ping"></a>ping</h3><ul><li>默认一直发送数据包</li><li>按Ctrl-C中止</li></ul><h3 id="ssh"><a href="#ssh" class="headerlink" title="ssh"></a>ssh</h3><ul><li>Linux中非常常用的工具，可以利用SSH客户端登录SSH服务器</li><li>Windows下的Xshell→Linux上的SSH服务器</li></ul><h4 id="SSH端口：默认22"><a href="#SSH端口：默认22" class="headerlink" title="SSH端口：默认22"></a>SSH端口：默认22</h4><ul><li>Windows下的常用SSH客户端：putty，xshell，secureCRT</li><li>Windows 10自带了SSH命令行客户端</li><li>所有类Unix系统均自带SSH命令行</li><li>格式：<code>ssh -p port user@host</code><ul><li>host=192.168.56.1</li><li>p=22</li><li>user= lester</li><li>pwd=..</li></ul></li></ul><h4 id="在Linux上安装SSH服务器"><a href="#在Linux上安装SSH服务器" class="headerlink" title="在Linux上安装SSH服务器"></a>在Linux上安装SSH服务器</h4><ul><li>openssh-server</li></ul><h4 id="深入理解计算机网络，特别是NAT"><a href="#深入理解计算机网络，特别是NAT" class="headerlink" title="深入理解计算机网络，特别是NAT"></a>深入理解计算机网络，特别是NAT</h4><ul><li>桥接网络（家中路由器开通了DHCP推荐）<ul><li>virtual，host处于同一个网段</li><li>用ipconfig查出当前地址</li><li>hostname=inet地址</li></ul></li><li>Nat或Nat网络  <img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s1.ax1x.com/2020/04/22/JN1B2F.png" style="margin-left: 0; width: 600px" /></li><li><code>sudo apt-get install openssh-server</code><ul><li>启动：<code>sudo /etc/init.d/ssh start</code></li><li>关闭：<code>sudo /etc/init.d/ssh stop</code></li></ul></li></ul><h4 id="ssh客户端："><a href="#ssh客户端：" class="headerlink" title="ssh客户端："></a>ssh客户端：</h4><ul><li>Linux，Mac所有版本自带ssh</li><li>Windows 7开始自带ssh</li><li>第三方工具：xshell，putty</li></ul><h4 id="ssh远程登录格式"><a href="#ssh远程登录格式" class="headerlink" title="ssh远程登录格式"></a>ssh远程登录格式</h4><ul><li><code>ssh [-p port] username @host</code></li></ul><h4 id="ssh配置免密码登录"><a href="#ssh配置免密码登录" class="headerlink" title="ssh配置免密码登录"></a>ssh配置免密码登录</h4><ul><li>原理<ul><li>生成一个密钥对，在客户机上存放私钥，在服务器上存放公钥</li><li>每次登录时，取私钥并与服务器上的公钥配对，配对成功表示认证通过</li></ul></li><li>步骤<ul><li>如何生成？<ul><li><code>ssh-keygen(key generator)</code>：根据机器的特征值生成id_rsa（私钥），id_rsa.pub（公钥）</li></ul></li><li>生成后的密钥存放在何处？<ul><li>存放在用户目录下的.ssh</li></ul></li><li>服务器如何配置<ul><li>任务：id_rsa.pub文件的内容添加到远程主机.ssh目录下的authorized_keys文件<ul><li>linux系统中<ul><li><code>ssh_copy_id [-p port] username@host</code></li></ul></li><li>Windows<ul><li>可视化方式复制</li><li>scp：secure copy，用于远程的安全拷贝<ul><li><code>scp [-P port] 本地文件 username@host：Desktop/01.py</code></li><li><code>cat id_rsa.pub >~/.ssh/authorized_keys</code></li></ul></li><li>SCP扩展<ul><li>本地文件上传至服务器</li><li>远程文件下载到本地（任务：将远程主机Desktop下的hello.py下载）<br>  <code>w  scp -P 22 username@host:Desktop/hello.py hello_world.py</code></li><li>将本地文件夹上传至服务器<br>  <code>w scp -r zjnu username@host:Desktop</code></li><li>将远程文件夹下载至本地<br>  <code>w scp -r username@host:Desktop/01 01_copy</code></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul><h4 id="别名登录"><a href="#别名登录" class="headerlink" title="别名登录"></a>别名登录</h4><ul><li>给我们访问的远程主机设置一个容易记住的别名，类似于：域名VS ip地址</li><li>不同点：域名需要在DNS注册，别名在本机注册</li><li>windows方法<ul><li>.ssh下新建文件</li><li>config中配置别名</li><li>别名登录：ssh user@别名</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="创客与学科教学应用" scheme="https://rongy.xyz/categories/%E5%88%9B%E5%AE%A2%E4%B8%8E%E5%AD%A6%E7%A7%91%E6%95%99%E5%AD%A6%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/tags/Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Task03：Linux 基本命令</title>
+    <link href="https://rongy.xyz/blog/d249b5c4.html"/>
+    <id>https://rongy.xyz/blog/d249b5c4.html</id>
+    <published>2020-04-22T03:05:39.000Z</published>
+    <updated>2020-04-22T03:24:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="文件与目录"><a href="#文件与目录" class="headerlink" title="文件与目录"></a>文件与目录</h3><ul><li>分区：Linux没有分区概念，Linux以目录的组织，只有根目录<ul><li>/bin：可执行文件</li><li>/sbin：供超级用户使用的可执行文件 （s=super）</li><li>/etc：配置文件<ul><li>eg：源地址：/etc/apt/sources.list</li></ul></li><li>/home：家目录，给用户存储文件用<ul><li>每一个用户都有一个用户名命名的文件夹</li><li>收藏夹中的主目录=用户自己的家目录</li><li>同时可以看收藏夹中也有家目录各子目录的快捷方式</li></ul></li><li>/mnt：挂载设备用</li><li>/boot：引导程序</li><li>操作系统：内核→系统调用→内置的命令行或基本的图形程序→第三方应用→用户</li><li>Ubuntu主文件夹里的中文文件夹名称改成英文：export LANG=en_US xdg-user-dirs-gtk-update</li></ul></li></ul><h3 id="Linux终端与命令"><a href="#Linux终端与命令" class="headerlink" title="Linux终端与命令"></a>Linux终端与命令</h3><h4 id="ls：列出当面目录和文件夹"><a href="#ls：列出当面目录和文件夹" class="headerlink" title="ls：列出当面目录和文件夹"></a>ls：列出当面目录和文件夹</h4><ul><li>-l：详细输出文件或目录信息</li><li>-h：人性化方式显示文件大小 <code> bytes&lt;kb&lt;mb&lt;gb&lt;tb&lt;pb&lt;eb&lt;zb&lt;yb </code></li><li>-a：显示隐藏文件（以.开始）</li><li>~：表示用户自己的家目录 =/home/username</li><li>.：当前目录</li><li>..：上一级目录</li><li>ls -a -h=ls -al</li></ul><h4 id="pwd：显示当前工作目录"><a href="#pwd：显示当前工作目录" class="headerlink" title="pwd：显示当前工作目录"></a>pwd：显示当前工作目录</h4><ul><li><code>print working directory</code></li></ul><h4 id="cd：切换文件夹"><a href="#cd：切换文件夹" class="headerlink" title="cd：切换文件夹"></a>cd：切换文件夹</h4><ul><li><code>change directory</code></li><li>cd /：进入根目录</li><li>cd..：向上</li><li>cd~：回到home</li><li>cd-：后退</li><li>linux命令区分大小写</li></ul><h4 id="tree：查看目录结构"><a href="#tree：查看目录结构" class="headerlink" title="tree：查看目录结构"></a>tree：查看目录结构</h4><h4 id="touch：创建文件"><a href="#touch：创建文件" class="headerlink" title="touch：创建文件"></a>touch：创建文件</h4><ul><li>格式：touch 文件名</li><li>如果文件不存在则新建一个，如果文件存在则修改最近修改时间</li></ul><h4 id="mkdir：创建目录"><a href="#mkdir：创建目录" class="headerlink" title="mkdir：创建目录"></a>mkdir：创建目录</h4><ul><li><code>make directory</code></li><li>格式：touch 文件名</li><li>支持同时创建多个文件夹<ul><li>同级目录：空格间隔 <code>mkdir 001 002 003</code></li><li>层级目录：用-p参数 <code>mkdir -p a/b/c</code></li></ul></li><li>同级目录下，文件与文件夹不能重名      <img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s1.ax1x.com/2020/04/22/JtVPjf.png" style="margin-left: 0;width: 400px"></li></ul><h4 id="rmdir：删除空目录"><a href="#rmdir：删除空目录" class="headerlink" title="rmdir：删除空目录"></a>rmdir：删除空目录</h4><ul><li><code>remove directory</code></li><li>终端删除的内容不进入回收站</li><li>只能删除空目录</li></ul><h4 id="rm：删除文件（remove）"><a href="#rm：删除文件（remove）" class="headerlink" title="rm：删除文件（remove）"></a>rm：删除文件（remove）</h4><ul><li>可以使用通配符：<ul><li>*.?：任意多字符，包括0</li><li>?.txt：任意一个字符，至少一个</li><li>[]：表示范围，[abc]表示a，b，c，[a-f].[0-9]</li></ul></li><li>rm -r：非空目录名，可以删除非空目录</li><li>终端删除的内容不进入回收站</li></ul><h4 id="clear：清屏"><a href="#clear：清屏" class="headerlink" title="clear：清屏"></a>clear：清屏</h4><h4 id="技巧："><a href="#技巧：" class="headerlink" title="技巧："></a>技巧：</h4><ul><li>利用上下键</li><li>使用ta键：命令与路径自动补全</li><li>区分相对路径和绝对路径<ul><li>绝对路径：从/开始的路径<ul><li><code>~=/home/username</code>，所以~开头的也称为绝对路径</li></ul></li><li>相对路径：从当前目录开始的路径</li></ul></li></ul><h4 id="查询帮助"><a href="#查询帮助" class="headerlink" title="查询帮助"></a>查询帮助</h4><ul><li>Win：帮助菜单、F1</li><li>Linux<ul><li>参数：–help 一次性显示所有帮助信息</li><li>命令：man（manual）<ul><li>格式：man 命令（空格下一屏，b上一屏，q退出）</li></ul></li></ul></li></ul><h4 id="cp：复制文件"><a href="#cp：复制文件" class="headerlink" title="cp：复制文件"></a>cp：复制文件</h4><ul><li>格式：cp 源文件路径 目标路径</li><li>-r：递归复制子目录和文件，只跟目录</li></ul><h4 id="mv：移动文件"><a href="#mv：移动文件" class="headerlink" title="mv：移动文件"></a>mv：移动文件</h4><ul><li>格式：mv 源文件名 目标路径</li><li>可以用mv重命名文件</li><li>移动子目录和文件，不需要加-r</li></ul><h4 id="cat：查看文件内容-（catalog）"><a href="#cat：查看文件内容-（catalog）" class="headerlink" title="cat：查看文件内容 （catalog）"></a>cat：查看文件内容 （catalog）</h4><ul><li>格式：cat文件名</li><li>-b：对非空行编号</li><li>-n：对所有行编号</li></ul><h4 id="more：查看文件内容"><a href="#more：查看文件内容" class="headerlink" title="more：查看文件内容"></a>more：查看文件内容</h4><ul><li>分屏显示</li><li>操作方式：空格下一屏，b上一屏，q退出</li></ul><h4 id="grep：搜索"><a href="#grep：搜索" class="headerlink" title="grep：搜索"></a>grep：搜索</h4><ul><li>格式：grep 字符串 文件</li><li>字符串中有空格，用引号</li><li>-n：对搜索出来的结果进行编号（非空行）</li><li>-v：显示不匹配的行</li><li>搜索命令区分大小写</li><li>-i：不区分大小写</li><li>^：行的开头</li><li>$：行的结尾</li><li>通常是搭配管道使用：重定向<ul><li>&gt;：输出并覆盖原始内容</li><li>&gt;&gt;：输出并追加至原始内容</li><li>|：表示一个命令的输出作为另一个信息的输入<ul><li>示例：<code>ls -alh ~ | more ls -alh ~ | grep P</code></li></ul></li></ul></li></ul><h4 id="echo：显示命令"><a href="#echo：显示命令" class="headerlink" title="echo：显示命令"></a>echo：显示命令</h4><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s1.ax1x.com/2020/04/22/JtVFu8.png" style="margin-left: 0;width: 500px">]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="创客与学科教学应用" scheme="https://rongy.xyz/categories/%E5%88%9B%E5%AE%A2%E4%B8%8E%E5%AD%A6%E7%A7%91%E6%95%99%E5%AD%A6%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/tags/Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Task02：Ubuntu基本设置</title>
+    <link href="https://rongy.xyz/blog/87e2db90.html"/>
+    <id>https://rongy.xyz/blog/87e2db90.html</id>
+    <published>2020-04-22T03:05:30.000Z</published>
+    <updated>2020-04-22T03:24:30.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>拓展：虚拟机镜像分享站点：<a href="https://www/osboxes.org/ubuntusf.net" target="_blank" rel="noopener">https://www/osboxes.org/ubuntusf.net</a></p><h3 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h3><ul><li>用户、应用软件、操作系统（内核（管理硬件系统）-系统调用，终端命令，图形界面））、硬件系统</li><li>类型<ul><li>桌面：Windows Mac Linux</li><li>服务器：Unix（最早 美国） Linux Windows Server</li><li>嵌入式：Android iOS HarmonyOS</li></ul></li></ul><h3 id="Linux"><a href="#Linux" class="headerlink" title="Linux"></a>Linux</h3><ul><li>内核：运行程序和管理资源的核心程序，提供了硬件与应用程序间的抽象层。内核具备基本的硬件调用功能（终 端命令→系统调用→硬件资源）</li><li>发行版：内核-基础应用，Ubuntu、CentOS、 Deepin、 UOS…..</li></ul><h3 id="Ubuntu"><a href="#Ubuntu" class="headerlink" title="Ubuntu"></a>Ubuntu</h3><h4 id="Ubuntu版本"><a href="#Ubuntu版本" class="headerlink" title="Ubuntu版本"></a>Ubuntu版本</h4><ul><li>Desktop：桌面版本，自带Gnome图形环境</li><li>Server：服务器版本，默认没有图形界面</li><li>IoT：loT= Internet of Things，物联网。支持树莓派、Intel NUC等</li><li>Cloud：VPS版， 针对Amazon AWS、Microsoft Azure等优化</li></ul><h4 id="主要衍生版本"><a href="#主要衍生版本" class="headerlink" title="主要衍生版本"></a>主要衍生版本</h4><ul><li>Kubuntu: KDE代 替Gnome</li><li>Xubuntu : Xfce代 替Gnome</li><li>Lubuntu: Lxde代替Gnome</li><li>Ubuntu Studio:集成开源媒体创作工具</li><li>UbuntuKylin （优麒麟） :中国专用版</li></ul><h4 id="版本号"><a href="#版本号" class="headerlink" title="版本号"></a>版本号</h4><ul><li>类型：普通版本，LTS版本（Long Term Support，2年）</li><li>版本号：年代+月份 目前为止每年4、10发布新版</li></ul><h4 id="图形化界面"><a href="#图形化界面" class="headerlink" title="图形化界面"></a>图形化界面</h4><ul><li>统一菜单</li><li>Dock</li><li>程序启动器</li></ul><h4 id="熟悉终端"><a href="#熟悉终端" class="headerlink" title="熟悉终端"></a>熟悉终端</h4><ul><li>启动：Terminal、收藏到Dock栏;</li><li>字符尺寸<ul><li>放大: Ctrl-Shift+=; 缩小: Ctrl–</li><li>属性/快捷键</li></ul></li></ul><h4 id="安装新软件"><a href="#安装新软件" class="headerlink" title="安装新软件"></a>安装新软件</h4><ul><li>比AppStore更早的应用商城</li><li>“Ubuntu软件”，搜索并安装</li><li>本课程中不推荐乱安装</li></ul><h4 id="配置更新源"><a href="#配置更新源" class="headerlink" title="配置更新源"></a>配置更新源</h4><ul><li>软件更新</li><li>选择中国源</li><li>也可测试</li></ul><h4 id="用户账户"><a href="#用户账户" class="headerlink" title="用户账户"></a>用户账户</h4><ul><li>默认账号均为标准账号</li><li>安装、配置时均提示输入密码临时调用管理员权限</li><li>命令行中如何临时使用管理员权限- sudo</li><li>密码输入无提示</li></ul><h4 id="命令"><a href="#命令" class="headerlink" title="命令"></a>命令</h4><ul><li>安装软件：<code>sudo apt-get install package_name</code></li><li>删除：<code>sudo apt-get remove package_name</code></li><li>更新：<code>sudo apt-get update package_name</code></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="创客与学科教学应用" scheme="https://rongy.xyz/categories/%E5%88%9B%E5%AE%A2%E4%B8%8E%E5%AD%A6%E7%A7%91%E6%95%99%E5%AD%A6%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/tags/Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Task01：Ubuntu安装与配置</title>
+    <link href="https://rongy.xyz/blog/57014c79.html"/>
+    <id>https://rongy.xyz/blog/57014c79.html</id>
+    <published>2020-04-22T03:05:06.000Z</published>
+    <updated>2020-04-22T03:24:06.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h3 id="认识Ubuntu"><a href="#认识Ubuntu" class="headerlink" title="认识Ubuntu"></a>认识Ubuntu</h3><ul><li>最流行的发行版</li><li>与Rasbian同源于Debian<ul><li>Raspberry Pi 的操作系统</li></ul></li><li>各发行版的指令系统基本一致</li><li>版本获取：<a href="https://ubuntu.com/download/desktop" target="_blank" rel="noopener">https://ubuntu.com/download/desktop</a></li></ul><h3 id="虚拟机"><a href="#虚拟机" class="headerlink" title="虚拟机"></a>虚拟机</h3><ul><li>物理机安装：先装win，再装Ubuntu</li><li>虚拟机安装：最保险的方式</li><li>Linux Subsystem for Windows 10</li><li>宿主中虚拟出软硬件</li><li>相对的：客户机</li><li>宿主机于客户机完全独立</li><li>虚拟机软件<ul><li>VMware：Win、Mac跨平台</li><li>Parallels Desktop：Mac</li><li>Hyper-V：内置在Windows Pro+，Server</li><li>Virtual Box：开源，Win、Mac、Linux跨平台<ul><li>拓展：比较虚拟机与Docker</li></ul></li></ul></li><li>开始之前<ul><li>打开BIOS中的虚拟化选项</li><li>不同主板BIOS选项各有差异</li><li>Virtualization Intel Virtual Technology VM</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="创客与学科教学应用" scheme="https://rongy.xyz/categories/%E5%88%9B%E5%AE%A2%E4%B8%8E%E5%AD%A6%E7%A7%91%E6%95%99%E5%AD%A6%E5%BA%94%E7%94%A8/"/>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/tags/Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows小软件</title>
+    <link href="https://rongy.xyz/blog/a063048c.html"/>
+    <id>https://rongy.xyz/blog/a063048c.html</id>
+    <published>2020-02-20T03:06:44.000Z</published>
+    <updated>2020-02-20T03:06:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="桌面美化"><a href="#桌面美化" class="headerlink" title="桌面美化"></a>桌面美化</h2><ul><li>任务栏透明<ul><li>Transparent TB</li><li>Star</li></ul></li><li>任务栏类dock<ul><li>软媒魔方</li><li>xx</li></ul></li><li>桌面挂件<ul><li>rainmeter</li></ul></li><li>开始界面+任务栏<ul><li></li></ul></li></ul><h2 id="常用工具"><a href="#常用工具" class="headerlink" title="常用工具"></a>常用工具</h2><ul><li>搜索<ul><li>wox</li><li>listary</li></ul></li><li>日程管理三件套<ul><li>自带日历系统</li><li>todo</li><li>outlook</li></ul></li><li>onenote</li><li>便签<ul><li>自带</li><li>小孩便签<br>在我安装了</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/categories/Learning/"/>
+    
+    
+      <category term="Skills" scheme="https://rongy.xyz/tags/Skills/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【个人小结】 大三上学期</title>
+    <link href="https://rongy.xyz/blog/835fd67d.html"/>
+    <id>https://rongy.xyz/blog/835fd67d.html</id>
+    <published>2020-01-11T07:51:34.000Z</published>
+    <updated>2020-03-22T18:06:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div style="text-align: center;font-size: 20px;font-style: italic;">    <p>       <strong>“</strong>    <br/>       希望我们都可以成长为自己喜欢的模样。    <br/>       2020，愿万事胜意。    <br/>       <strong>”</strong>    </p></div><p>　　大三第一学期就这样结束了，有时会觉得迷惘，有时会有怨怼。幸好在一次次的被虐中，综合能力水涨船高，感触和感悟也必不可少。</p><h2 id="学会选择"><a href="#学会选择" class="headerlink" title="学会选择"></a>学会选择</h2><p>　　在大三这个微妙的阶段，不止一位老师曾说过，我们将在这个寒假陷入迷茫，作为一位非浙江学生，在先天条件不如人的情况下，我依旧坚持我大一以来一直的想法：选择考研。曾记得高中毕业，在班长的升学宴上，同学间闲聊起日后的安排，大部分人都已有了考研的打算。虽不知三年后，在大学的“重塑”下，是否还有那么多的学生选择考研呢？<br>　　当然，身边的同学也有人选择考雅考公，每一种选择，都对应着不同的结果。<br>　　从小我便面临一个个选择，大学中更是如此。选给分高的不喜欢的通识课还是给分低的喜欢的通识课，选择做一条咸鱼还是做一只斗鸡，选择留任还是不留任……许许多多的选择，总会让我在选择之时忘记选择的初衷。究竟是追求个性还是同流合污，每一次选择都是我所喜爱的吗？都是心之所想吗？每一次的抉择中，有时我只是更多的想到结果，并没有在意个人的本身收获。我不知道为什么如今的高校教育，已经完全偏离了本身的方向，大学不应注重学生的素质教育和个性化发展，为何用条条框框限制学生。当下的学生更容易被物质和利益所吸引，每一次的选择背后，其实包含着很多的利害关系，为了评优评奖，为了面子，但最本质的热爱和兴趣，不应该又一席之地吗？<br>　　有时真不理解挺多事情的，其实也很无奈吧，毕竟大学的课程真心喜欢的没有多少，喜欢的老师也就几位，很多时候，也没得选……</p><h2 id="怎样学习"><a href="#怎样学习" class="headerlink" title="怎样学习"></a>怎样学习</h2><p>　　今年的绩点，经过严密且合理的推算，应该会是三年中最高的一次（实锤了确实是最高的一次）。这不禁令我怀疑曾经的学习模式是否正确。到了大三，越发觉得自己是一只老油条。三年的大学学习令我明白，<strong>集中精力高效学习才是最有效的学习模式</strong>。既然那么忙，就更应当在有限的时间中集中精力学习。无意义的、不过脑的、多耗时的学习既会影响学习兴趣，也会影响学习效率。<br>　　在三年的学习生涯中，最为佩服的是一类学生，他们认真刻苦，抓紧每一分每一秒学习，拥有健康且正常的作息，先不论是否取得好的学习效果，就这份毅力已经令我大为佩服。特别是在学生工作与学习冲突的时刻，便会对这类学生生出“嫉妒”之心。但这种学习模式真的合理吗？我觉得还是因人而异。<br>　　当然，学习的方式有很多种，但适合自己的总是只有一种。最好的学习，是基于兴趣的学习，而非基于任务的学习。为了成绩、为了绩点、为了老师的青睐，这都不是正确的学习观念。<br>　　可能会有人觉得，从小到大的学习都是应试教育下的产物，那我们为什么不能在脱离应试教育的苦海后，带着兴趣，有侧重、有选择地学习呢？长此以往，总会形成认识的误区，甚至从业后，更易产生职业倦怠。</p><h2 id="没有人有必要宠着你"><a href="#没有人有必要宠着你" class="headerlink" title="没有人有必要宠着你　　"></a>没有人有必要宠着你　　</h2><p>　　大三这一学期，从被人带的学妹变成了带着别人的学姐，身份的转变，带给自己别样的感受。除了思考怎样在有限的时间内获得更高的学习效果，也在思考怎样才能搞事情。面子活儿得做的好，不能太过分也不能太欠，说话得留心，做事得用心，毕竟啊，是个小社会，没什么人有义务宠着你。帮你是情分，不帮你是本分。<br>　　所以啊，不要对他人有太高奢求，你唯一有资格要求的人，只有你自己。</p><p><strong>写在最后</strong>：</p><ul><li>其实很想知道若干年后看着青年时期的我写的东西会是一种怎样的感受，一起拭目以待。</li><li>从今天开始早睡早起……（早睡应该不太可能早起倒还可行）　　　　　　</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Thinking" scheme="https://rongy.xyz/categories/Thinking/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【教学设计】 《基于Hexo+Github的个人博客搭建》教学设计</title>
+    <link href="https://rongy.xyz/blog/54caf5f9.html"/>
+    <id>https://rongy.xyz/blog/54caf5f9.html</id>
+    <published>2019-12-29T13:24:00.000Z</published>
+    <updated>2020-05-08T02:36:37.118Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="《基于Hexo-Github的个人博客搭建》教学设计"><a href="#《基于Hexo-Github的个人博客搭建》教学设计" class="headerlink" title="《基于Hexo+Github的个人博客搭建》教学设计"></a>《基于Hexo+Github的个人博客搭建》教学设计</h2><div class="row">    <embed src="/《基于Hexo+Github的个人博客搭建》教学设计.pdf" width="100%" height="550" type="application/pdf"></div>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Educating" scheme="https://rongy.xyz/categories/Educating/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【编程语言】 Markdown</title>
+    <link href="https://rongy.xyz/blog/ecd9ccb9.html"/>
+    <id>https://rongy.xyz/blog/ecd9ccb9.html</id>
+    <published>2019-12-09T11:16:11.000Z</published>
+    <updated>2020-05-08T02:36:37.105Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><h2 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h2><ul><li>标题用“#”或“-”开头，个数表示标题的级数，相当于h1-h6</li><li>不加任何标识的文本表示正文</li><li>无序列表：用加空格开始</li><li>有序列表：用数字加标题开始</li></ul><ol><li>张三</li><li>123</li><li>李四</li></ol><ul><li>超级链接</li></ul><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">[]()</span><br><span class="line">[<span class="string">Hexo+GithubPage+阿里云域名光速搭建个人博客网站</span>](<span class="link">https://www.jianshu.com/p/f3dde1d95ee4</span>)</span><br></pre></td></tr></table></figure><p><a href="https://www.jianshu.com/p/f3dde1d95ee4" target="_blank" rel="noopener">Hexo+GithubPage+阿里云域名光速搭建个人博客网站</a></p><ul><li>图片链接</li></ul><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![]()</span><br><span class="line">![](https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg)</span><br></pre></td></tr></table></figure><p>(个人更推荐HTML的方式插入图片)</p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s2.ax1x.com/2019/11/08/MZ8Fne.jpg " style="width: 270px;"><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><ul><li>访问sublime text 官网，获取试用下载</li><li>访问package control官网获取相应版本安装脚本</li><li>在sublime中按“ctrl+`</li><li>重启后，ctrl+shift+p，出现命令输入框</li><li>在命令框中输入package control: install package（支持模糊输入）<ul><li>markdown preview</li><li>markdown build（ctrl+b）</li></ul></li></ul><h2 id="其他的markdown编辑器"><a href="#其他的markdown编辑器" class="headerlink" title="其他的markdown编辑器"></a>其他的markdown编辑器</h2><ul><li>Typora + Pandoc</li><li>简书</li><li>Visual studio code</li></ul><h2 id="URI"><a href="#URI" class="headerlink" title="URI"></a>URI</h2><ul><li>协议：// 主机名/目录名/资源名</li><li>http://</li><li>https://</li><li>gopher://</li><li>irc://</li></ul><p>本机文件如何使用？<br>绝对路径：file://D:/x/x<br>推荐使用相对路径：file://  /D:/x/x</p><h2 id="版本控制系统"><a href="#版本控制系统" class="headerlink" title="版本控制系统"></a>版本控制系统</h2><ul><li><p>常见的版本控制系统</p><ul><li>CVS （基本已弃用）</li><li>Microsoft Visual soursesafe（基本已弃用）</li><li>Subversion</li><li>Git（流行，Github使用）</li></ul></li><li><p>github及pages</p><ul><li>注册github账号，例如：zjlester</li><li>创建一个仓库</li></ul></li><li><p>后续的机制</p><ul><li>创建一个静态网站</li><li>将静态网站更新</li></ul></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Markdown语法" scheme="https://rongy.xyz/categories/Markdown%E8%AF%AD%E6%B3%95/"/>
+    
+    
+      <category term="Markdown" scheme="https://rongy.xyz/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【常用技巧】 压缩图片的方法</title>
+    <link href="https://rongy.xyz/blog/28c80089.html"/>
+    <id>https://rongy.xyz/blog/28c80089.html</id>
+    <published>2019-12-01T16:39:22.000Z</published>
+    <updated>2019-12-01T16:39:22.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　最近的微信推送中，小朋友们的排版质量是越来越好了，但是普遍存在的问题是大家都不太会压缩图片。因此，在这篇文章中，我将分享<strong>压缩图片</strong>的几种方法。</p><h2 id="PS压缩图片方法"><a href="#PS压缩图片方法" class="headerlink" title="PS压缩图片方法"></a><a href="https://www.bilibili.com/video/av70608546/" target="_blank" rel="noopener">PS压缩图片方法</a></h2><p>　　PS压缩图片应该是众多压缩图片方法中最常用的一种,该方法可针对任意图片,且使用过程中较为方便。</p><p><strong>附：PS CC 2019安装包</strong><br>链接： <a href="https://pan.baidu.com/s/1fw-GRbGy_xADON0abAHxXw" target="_blank" rel="noopener">https://pan.baidu.com/s/1fw-GRbGy_xADON0abAHxXw</a><br>提取码：91yh </p><h2 id="win10自带压缩方法"><a href="#win10自带压缩方法" class="headerlink" title="win10自带压缩方法"></a><a href="https://www.bilibili.com/video/av63636246?from=search&seid=12150710342538536203" target="_blank" rel="noopener">win10自带压缩方法</a></h2><p>　　来自于我可爱的副主任们，操作快捷方便，强推！</p><h2 id="在线压缩图片方法"><a href="#在线压缩图片方法" class="headerlink" title="在线压缩图片方法"></a>在线压缩图片方法</h2><ul><li><p><a href="https://www.picdiet.com/" target="_blank" rel="noopener">picdiet</a> （只支持jpeg）</p></li><li><p><a href="https://img.top/" target="_blank" rel="noopener">img.top</a>  （5M以下，要钱）</p></li></ul><p>当然，压缩图片的方法多种多样，若有更好的方法希望大家和我一起分享~</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/categories/Learning/"/>
+    
+    
+      <category term="Skills" scheme="https://rongy.xyz/tags/Skills/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Secrets】 One</title>
+    <link href="https://rongy.xyz/blog/d1a2bd4f.html"/>
+    <id>https://rongy.xyz/blog/d1a2bd4f.html</id>
+    <published>2019-11-14T07:55:44.000Z</published>
+    <updated>2019-11-14T07:55:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="a55a67e74d8e364300f1306b84fbdf166665ab8e588235b3139883f0f739a44c">eb76b64336fc6be8018a139d25e9464624f8fe1430c36ae80cf1858161b03ea382eeaa39f79461694b35ab114ee47cc2b7e9701d682649a56ec1b7872b25386785e52e84d99a90ba4962e59203c91f06c5b793387811a263c1adddaa579e425c812f097e7be046816f546eee539e57b352a78cae024718cdd254415cc7915a4a8a3c4c5da1657c2856180316323bcc0c8b00ef99bf2417962da2d11353ae498f4d09ccc79ab624606fe69b76660ebc1254571c76d70ceabfb8de4a90f46e0a8eb709e6293cb24c51bacfb964567c2ae45b57dc8246690f5aafa85bbbb000945475a8dca96bed3107065d2d39573e1a153087de6cb82470377494f01d448ddcc4931de98c099ac2824456983a83f282603f59516cc86fe8513bf52fd69e69de41f7d45f640557baff2c449a5f27c25936c3d785f78bdd285137c34f118dc71090063d5429abaa5254b3aecbcd886484c5719d6eb2dc9a7cbe007f3be8ddcd80abf4b3e0ddf3bbb0cc6b05e067053bebf2ba57441ab5cd03059e36ee4000a1bc673882ee18605c6b50c12aa3d2bfa59883e00095530d8a596a0b28b059ec29d33352c0f02b5b886fc81cdbdcf3494929fede6770814beb3c6972fd1eb417431967d4354a94dd0319ef0b90e9c40e6005d448c6d5a64440dd77af3553c55a5c6577abdc47d5d267e30209a96f2658fe0bd47c2c00cf900ac28f6838c1dd98d398fadb0a2fed1b5f3722e89ce6041216045208b4aad5bcf88beffcc1097f9c778b78804c9b32d2275e90d5294838fae1f87c0346eb25f013179b4eacc571149f67553779bb7867e410c72c8db7dd11c9d4a0f05ae3c5afe0140f793ca40075fc3d8fd98115715240aef133459c099338286b649965c52b429d99deebe766a40257257c8c0474af9fd1ff448bfd0800b59aa2438afc5ddecaa801e69915eafce7879bcf342ab8fbcd24e6b87606ebe67e02ffde36d958bc7151b1601fc6bc1cca4b5546104ef2170c4590842103e438943aabb6e8874ac1c0110a779e151f24936fa086091301c19ae932a0c896148d612c0530ba41086c5088c44353215615397e034e774904e3f8767990ac20efc37007658127654325c381d837f59b3cf3f34e71216893a2c1995c987cd68db4c52c7cd4891d163cadd839ce7e5281f7faba6154dbec227c4e4b19827679948b5522171701ec8ad121a4dc429dad21568567d3293bf8c0971620cbee069262b4900d8d35ffa0572f3b45cd68469a7a6978a9b24f8ca1b568613627f61c0c59addb847067dd4a46dce2eac5ce96a9c6217a0a8ffb866458e98a8f972ed3b3514240a6637d5e5d5c7afaf7048ccc64162775d23fe99fc3f1f03f72e26af65b5336f9fead08dd157bcc57bdc4d7e19a407690786b013dfc9c15ca302c94da7e17535df5295258507d594d42549bee8f01f5af2c005f142d90990aa77474a5f41dbe816461916e1e9afec6160219c9e65eab58ac97c4c7692aeb7578deeebf75e3c6959ef7afab1fd84da9dd787bfc3d54d7121302042d81006a66092efb2791289ee26d3e2fd6fc5dc93e56f73a6826b76f8f769fc864e846b45947952a821713b03fc36740f39552b406060d20c93b9b7b47588cd39cb6232c7da569cc8288b6305a4e35a1bde1dc1f8e5129f5dbe4cdec8ab54697dbaafc5c98a3b93ba9378253da381f5e528d2d88892efbd7b1aa1a8a2431fa4b1aecd918a00c34235ff9e81aa6278de1bb831d5573bd2e1d45c5cc1c1fcc61f57da3cef65846c45c144b293c99da4db96f50d33959874747892db336b865f659e3a471148c07de2a2c1db00d078fdbf218c82af4f247305a93210c03b308c92c98023f9dfdf6e412f0f295061243902a4c519a31fc5dc9369bbda2c742f9126f803bdb6673a7a21ca9e5155a8d0d4c2df7e701dc4f15b0ded99f9b6e81f87ce61b6b3d28bdeff00cb0e00e51f658c56e8760fc26ace10cf19b03abdabc88c6d145525d5ec91cd1c89061559a94b07fd505da550da82ccc4ce2843f2360e7e4e7af552db979ccb7b410984a3c8a868b9cdc2e78a773ca937cd8ef8ccb155cadf1323e19918594ac82ffe68a53760889a55dfc2de483808a5fbc43bf618120da7b8bc45220a85494e8ee414eaf63aaf85dbbbd9e908c45a0da3ccbd320291d74c941a1092502f6bddc29102c9b3e8136a74567576a173c4f70da8b13a7ca72bdecd52231a243461523f9c54831e70ab09ed448daf2aa07eeb12b8a382274fea5d665aa19218d6700f3b959bacc536db9c06ac7cd7ce00c32113f0aadd596937dfd638857e6b8a134f7859b8b5eca2846a70858583bce23076b8e03928c973fa9f901e678c4831744bafcf9b96bcd6f56260ac6cc7c71954236527b58844af961487fcce67c834a441ecec36af4a85491176044ffa452c478d8d834dc8d23596d0506eb7dac256a66ae370a21e36098ef8b3673eeb614a1cddb3a11dd5f80bc2275d45d233e34b0ed7b5d235ead3763c6c6b8a5018371e25c027bce61a7d50f6cd9</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">密码：我的农历生日</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    <summary type="html">
+    
+      密码：我的农历生日
+    
+    </summary>
+    
+    
+      <category term="Thinking" scheme="https://rongy.xyz/categories/Thinking/"/>
+    
+    
+      <category term="Learning" scheme="https://rongy.xyz/tags/Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【博客搭建】 基于Hexo+GitHub的个人博客搭建</title>
+    <link href="https://rongy.xyz/blog/e62eaae1.html"/>
+    <id>https://rongy.xyz/blog/e62eaae1.html</id>
+    <published>2019-11-09T12:20:00.000Z</published>
+    <updated>2020-05-09T09:46:24.553Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><div class="note info">            <p>本文档更新于2020年05月06日。</p>          </div><div class="note primary">            <p>主要对本博客做了如下修改：</p><ul><li><strong>新增Gitee部署</strong></li><li><strong>自建图床</strong></li><li><strong>魔改主题</strong></li><li><strong>延迟修复</strong></li></ul>          </div><p>　　为了尽早体会到拥有一个个人博客的乐趣，在使用Typecho搭建个人博客后由于不想出云服务器的费用(在此感谢大师第一时间给我提供帮助)，我便转而投入到了hexo+github中。整体使用过程是较为流畅的，唯一一点不适应的是每天都要面对黑色的Git Bash……<br>　　今天写这篇文章，一是为我的博客庆生，二则是分享一下在搭建过程中所探索出的一些“新”东西。</p><h2 id="搭建"><a href="#搭建" class="headerlink" title="搭建"></a>搭建</h2><h3 id="Github-Hexo"><a href="#Github-Hexo" class="headerlink" title="Github+Hexo"></a>Github+Hexo</h3><p>　　在利用Github+Hexo搭建博客的过程中，主要参考了这位仁兄的<a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">使用hexo+github搭建免费个人博客详细教程</a>。整篇文章较为简单，在这篇文章中，我主要学习其中使用hexo和github搭建个人博客的大框架和大流程。在实际的应用中，会出现很多的问题。在总的搭建过程中，我所重复最多的事情就是…一遍遍的扒博客园、CSDN和简书。推荐以下几篇文章供参考：　　</p><ul><li><a href="https://www.cnblogs.com/liuxianan/p/build-blog-website-by-hexo-github.html" target="_blank" rel="noopener">使用hexo+github搭建免费个人博客详细教程</a></li><li><a href="https://www.iteye.com/blog/xiaomiya-2106972" target="_blank" rel="noopener">搭建hexo博客并部署到github上</a></li><li><a href="https://blog.csdn.net/sinat_37781304/article/details/82729029" target="_blank" rel="noopener">hexo史上最全搭建教程</a></li><li><a href="https://www.jianshu.com/p/39562a0d8eb6" target="_blank" rel="noopener">可能是最详细的 Hexo + GitHub Pages 搭建博客的教程</a></li><li><a href="https://www.cnblogs.com/ruruozhenhao/p/8215011.html" target="_blank" rel="noopener">GitHub+Hexo 搭建个人网站详细教程</a></li></ul><p>　　在搭建的过程中，主要是细致，以上的几篇搭建文章个人建议只参考其中的如何搭建+部署到Github上，其余的则根据个人博客实际需要作灵活调整。</p><h3 id="Gitee-Hexo"><a href="#Gitee-Hexo" class="headerlink" title="Gitee+Hexo"></a>Gitee+Hexo</h3><p>　　在20年五一假日的最后一天，我将我的博客做了一次巨大的升级，其中最重要的就是将博客部署在了<a href="https://gitee.com/" target="_blank" rel="noopener">Gitee（码云）</a>上。其过程与Github的配置几乎一致，优势在于访问速度是Github的1/3（Gitee平均40ms，Github平均130ms），不足处在于自定义域名只有一个月，且必须申请SSL证书（关于这个证书后文会讲解一些我遇到的坑和bug）。同样，参考如下这篇文章即可完成配置。</p><ul><li><a href="https://segmentfault.com/a/1190000018662692" target="_blank" rel="noopener">基于Gitee+Hexo搭建个人博客</a></li></ul><p>　　最恐怖的坑在于，Gitee中的配置需要<strong>手动刷新！手动刷新！手动刷新！</strong>这真的会令人崩溃…<br>　　所以，一定要记得<strong>手动更新！！！</strong><br><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://gitee.com/li_wanrong/image/raw/master/img/GiteeUpload.png" alt=""><br>　　个人觉得，资金充足的同志们完全可以考虑充年费享用<strong>Gitee Pages Pro服务</strong>，获得更良好的使用体验（包括自动更新、自定义域名（不限时）等等）。</p><h2 id="基本配置"><a href="#基本配置" class="headerlink" title="基本配置"></a>基本配置</h2><h3 id="域名配置"><a href="#域名配置" class="headerlink" title="域名配置"></a>域名配置</h3><p>　　以上过程中，唯一令我疑惑的则是如何使用自己的域名。在自己买了域名后…我真后悔，阿里云域名续费双十一打折，我应该再续一波费…<br>　　言归正传，如何使用自己的域名，可参考：</p><ul><li><a href="https://www.jianshu.com/p/f3dde1d95ee4" target="_blank" rel="noopener">Hexo+GithubPage+阿里云域名光速搭建个人博客网站</a></li><li><a href="https://www.cnblogs.com/dashucoding/p/9950501.html" target="_blank" rel="noopener">博客Hexo + github pages + 阿里云绑定域名搭建个人博客</a></li></ul><p>　　域名可以在<a href="https://homenew.console.aliyun.com/" target="_blank" rel="noopener">阿里云</a>购买。<br>　　在ping github提供的域名时(仓库名.github.io)，可能会出现请求超时的情况，但是并没有什么影响，只要得到Github pages的IP地址即可。</p><h3 id="配置域名证书"><a href="#配置域名证书" class="headerlink" title="配置域名证书"></a>配置域名证书</h3><p>　　在后期将博客部署至Gitee时，出于好奇<del>（其实是闲得慌）</del>，为了实现自定义域名，特意从阿里云搞了个<strong>免费</strong>的SSL安全证书，结果，玩大了…<br>　　在开启免费试用一个月的Gitee Pages Pro服务后,你会看到下图这个界面:</p><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://gitee.com/li_wanrong/image/raw/master/img/SSL1.png" style="zoom:60%;margin-left:0px" /><p>　　此时，你可以将你自己购买的域名填入<strong>“自定义域名”</strong>处，在填好域名后，点击<strong>“配置域名证书”</strong>,根据提示,下载<a href="https://keymanager.org/" target="_blank" rel="noopener">KeyManager</a>后进行配置（emm我没配置过感觉还可,也不知道会不会有坑…）。或者使用阿里云下的<a href="https://help.aliyun.com/product/28533.html?spm=a2c4g.11186623.6.540.76c33718GB2L1d" target="_blank" rel="noopener">SSL证书</a>申请<strong>免费证书</strong>，但后期会出现谷歌浏览器无法识别的情况（<strong>免费不认可</strong>），如果不介意域名样式，可以跳过这一步（可以省点钱😭）．</p><h3 id="Git下载"><a href="#Git下载" class="headerlink" title="Git下载"></a>Git下载</h3><p>　　由于是外网的原因，从Git官网下载Git时非常非常慢，在这里分享自己使用的Git。</p><ul><li><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://gitee.com/li_wanrong/image/raw/master/img/GithubBaiduyun.jpg" style="margin-left: 0;width: 100px"></li></ul><h3 id="主题"><a href="#主题" class="headerlink" title="主题"></a>主题</h3><p>　　<a href="https://hexo.io/" target="_blank" rel="noopener">Hexo官网</a>提供了很多的主题，但在被Typecho的美貌所“勾引”后，不得不说，Hexo的主题不是那么的美丽。扒Github是个好习惯，在Github中有很多意想不到的好看的主题。<br>　　在拥有了好看的主题后，看懂<strong>帮助文档</strong>对主题的修改配置有非常大的帮助。</p><h4 id="魔改主题"><a href="#魔改主题" class="headerlink" title="魔改主题"></a>魔改主题</h4><p>　　根据<a href="https://blog.clouder.im/" target="_blank" rel="noopener">＠云玩家</a>的博客，可以对Butterfly主题进行一些初步的修改，这位大哥已经将自己的魔改主题开源了，需要可自取。</p><ul><li><p><a href="https://blog.clouder.im/hexo/butterfly_modify/" target="_blank" rel="noopener">Butterfly 主题魔改记录</a></p><p>另外，根据<a href="https://blog.csdn.net/cungudafa/article/details/105699384" target="_blank" rel="noopener">hexo（butterfly）蝴蝶主题+个性美化</a>修改了about me。</p></li></ul><h3 id="Github延迟"><a href="#Github延迟" class="headerlink" title="Github延迟"></a>Github延迟</h3><p>　　如果在搭建过程中，出现“404 Not Found”，在确认其余操作无误后，唯一的原因是由于Github自身的原因。Github搭建在东南亚，白天速度还是可的，一到晚上就进入死机状态。这便出现了我一晚上提交了五次到github上但网页中没有一点变化的情况。<br>　　如果在访问我的博客的过程中，出现404，加载过慢，请保持愉悦的心情，再刷新一次。<br>　　主页中，我已挂出Gitee上的博客链接，如果需要提速请访问<a href="https://li_wanrong.gitee.io" target="_blank" rel="noopener">该链接</a>。</p><h3 id="延迟修复"><a href="#延迟修复" class="headerlink" title="延迟修复"></a>延迟修复</h3><p>　　主要参考大佬<a href="https://blog.clouder.im/" target="_blank" rel="noopener">＠云玩家</a>的杰作,一个js引用结束一切战斗。</p><ul><li><a href="https://blog.zplayer.cloud/hexo/jsdelivr_js/" target="_blank" rel="noopener">仅引入 JS 实现博客 CDN 加速</a>　</li></ul><h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><p>　　在完成基本的搭建之后，为实现多样化的功能，则需要使用插件。</p><h3 id="看板娘"><a href="#看板娘" class="headerlink" title="看板娘"></a>看板娘</h3><p>　　在Typecho中，我就已经使用了傻傻的看板娘，小姑娘摇啊摇的特别可爱，在这次Hexo的搭建中，我便将其添加进了我的博客中。想实现这一功能可参考：</p><ul><li><a href="https://www.jianshu.com/p/89440678ee3c" target="_blank" rel="noopener">Hexo博客NexT主题美化之新增看板娘(能说话、能换装)</a></li></ul><p>　　在这里有一点说明，使用<a href="https://github.com/stevenjoezhang/live2d-widget" target="_blank" rel="noopener">张书樵大神的项目</a>（推荐）时，要先将看板娘插件卸载后方可调用。</p><h3 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h3><p>　　Hexo由于是静态页面，故而只能使用第三方评论系统，推荐valine。使用方式可参考：</p><ul><li><a href="https://baijiahao.baidu.com/s?id=1608153490321015332&wfr=spider&for=pc" target="_blank" rel="noopener">hexo评论系统之valine快速使用</a></li><li><a href="https://blog.csdn.net/blue_zy/article/details/79071414" target="_blank" rel="noopener">为你的Hexo加上评论系统-Valine</a></li></ul><p>　　推荐理由还是因为免费，其中<a href="https://leancloud.cn/" target="_blank" rel="noopener">Lean Cloud</a>还可进行数据管理。</p><h3 id="音乐播放器"><a href="#音乐播放器" class="headerlink" title="音乐播放器"></a>音乐播放器</h3><p>　　在Hexo中，可以通过插件aplay插入音频，具体可参考：</p><ul><li><a href="https://blog.csdn.net/hushhw/article/details/88092728" target="_blank" rel="noopener">Hexo主题插入音乐之aplayer音乐播放器</a></li></ul><p>　　使用过程依旧是流畅欢快的，即插即用真好。</p><h3 id="小图标"><a href="#小图标" class="headerlink" title="小图标"></a>小图标</h3><p>　　可以调用以下两种：</p><ul><li><a href="https://fontawesome.com/v4.7.0/" target="_blank" rel="noopener">FontAwesome 4.0</a></li><li><a href="https://fontawesome.com/" target="_blank" rel="noopener">FontAwesome 5.0</a></li></ul><p>　　注：5.0版本可能会和4.0版本产生冲突，可优先使用5.0。</p><h3 id="图床"><a href="#图床" class="headerlink" title="图床"></a>图床</h3><h4 id="在线图床"><a href="#在线图床" class="headerlink" title="在线图床"></a>在线图床</h4><p>　　由于Github只提供了300M的空间供我们使用，所以，大部分的图床必须放置在图床中。在一再试用后发觉Github的域名好像不能备案(非本国)，我便放弃了七牛云，使用了更优秀的在线图床。(真想打死做省赛的时候的自己，那么多图放图床不就好了…)<br>可参考：</p><ul><li><a href="https://www.jianshu.com/p/9ca58d56a12a" target="_blank" rel="noopener">盘点一下免费好用的图床</a></li></ul><p>　　个人使用的是路过图床，总体体验还是可的，唯二不足是广告有点多，图片原图无损导致<a href="https://liwanrong.xyz/gallery/" target="_blank" rel="noopener">相册</a>页面加载非常缓慢(图片大小5~8M不等)，后期我会抽空压一下图片。</p><h4 id="自建图床"><a href="#自建图床" class="headerlink" title="自建图床"></a>自建图床</h4><p>　　研究了研究<strong>自建图床</strong>，完全可以用Github/Gitee仓库代替zaix图床，具体可以参考以下几篇：</p><ul><li><a href="https://www.sakura521.cn/technology/picgocdn.html" target="_blank" rel="noopener">PicGo+jsDelivr+GitHub搭建免费cdn加速图床</a></li><li><a href="https://www.jianshu.com/p/b69950a49ae2" target="_blank" rel="noopener">PicGo+Gitee（码云）实现Ｍarkdown图床</a></li><li><a href="https://blog.csdn.net/disILLL/java/article/details/104944710" target="_blank" rel="noopener">手把手教你用Typora自动上传到PicGo图床【教程与排坑】</a></li></ul><h3 id="搜索"><a href="#搜索" class="headerlink" title="搜索"></a>搜索</h3><p>　　我所使用的是Hexo的本地搜索插件，然鹅，有点问题。<br>　　algolia要收费，暂时还没有找到更好的解决方法，先将就吧。</p><h3 id="文章加密"><a href="#文章加密" class="headerlink" title="文章加密"></a>文章加密</h3><p>　　在写博文的过程中，总有一些文章想要限制一些访问量，所以需加密，对于这一功能，可参考：、</p><ul><li><a href="https://www.jianshu.com/p/e4203ee066e5" target="_blank" rel="noopener">Hexo博客文章加密</a></li></ul><p>　　个人较为推荐使用<code>hexo-blog-encrypt</code>插件，由于不同配置环境和原因，使用其他方法会降低成就感。</p><h3 id="Rating-评分"><a href="#Rating-评分" class="headerlink" title="Rating 评分"></a>Rating 评分</h3><p>　　具体可参考</p><ul><li><a href="https://xiabor.com/2020/03/29/hexo2/#Rating评分" target="_blank" rel="noopener">Rating 评分</a></li></ul><p>　　总的来说，做网站能极大地激发我的兴奋度，虽然睡功在这一阶段直线上升，随处可睡，但还是收获颇多。Sublime Text真是个强大的编辑器，markdown真是一门强大的语言。后续我将继续完善我的小博客，在这里记录我的点点滴滴。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="WebSite" scheme="https://rongy.xyz/categories/WebSite/"/>
+    
+    
+      <category term="Hexo" scheme="https://rongy.xyz/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【编程语言】 SQL Server</title>
+    <link href="https://rongy.xyz/blog/f7b4d6b5.html"/>
+    <id>https://rongy.xyz/blog/f7b4d6b5.html</id>
+    <published>2019-11-09T11:16:11.000Z</published>
+    <updated>2020-05-08T02:36:37.106Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　虽然今年没有良辉老师的课，但我还是在动态网站这一部分中保持着高涨的热情。从“要”作业到“给”作业的身份转化，让我意识到我竟然已经成为了一个大三老学姐。就在几周前，大二部门结识的教技小学妹找我要了数据库实验六的作业，在与小学妹的聊天中，我了解到她其实并不清楚《数据库技术基础》这门课是做什么用的。对数据库的功能，我的理解是，<strong><em>在网页中如果填写表单，做测试题，都是将这些数据记录进数据库，研究者会根据这些数据进行分析，或者在别的页面读取出来，举个例子，譬如qq空间的留言板，给他人留言后，就能看到自己在他人空间的留言，经历了数据库写入，读取的过程</em></strong>。好吧，其实这是我回复学妹的话，可能理解不是那么准确，数据库就像是一个大仓库，每一次数据请求，都是源于数据库的支持，在数据库的帮助下，减少了代码量，增加了动态性。结合七八九三个月做省赛的一些经验，我便在这篇文章中分享一些SQL Server常用的语句。</p><h2 id="查询"><a href="#查询" class="headerlink" title="查询　　"></a>查询　　</h2><h3 id="查询所有字段"><a href="#查询所有字段" class="headerlink" title="查询所有字段"></a>查询所有字段</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> <span class="keyword">table</span>;</span><br></pre></td></tr></table></figure><h3 id="查询指定字段"><a href="#查询指定字段" class="headerlink" title="查询指定字段"></a>查询指定字段</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> l1,l2 <span class="keyword">from</span> <span class="keyword">table</span>;</span><br></pre></td></tr></table></figure><h3 id="查询指定字段-1"><a href="#查询指定字段-1" class="headerlink" title="查询指定字段"></a>查询指定字段</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> l1,,l2 <span class="keyword">from</span> <span class="keyword">table</span>;</span><br></pre></td></tr></table></figure><h3 id="查询某列唯一不同的值"><a href="#查询某列唯一不同的值" class="headerlink" title="查询某列唯一不同的值"></a>查询某列唯一不同的值</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> distinc l1 <span class="keyword">from</span> <span class="keyword">table</span>;</span><br></pre></td></tr></table></figure><h3 id="查询某列中含x的字段"><a href="#查询某列中含x的字段" class="headerlink" title="查询某列中含x的字段"></a>查询某列中含x的字段</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> <span class="keyword">table</span> <span class="keyword">where</span> l1 <span class="keyword">like</span> <span class="string">'x%'</span>;</span><br></pre></td></tr></table></figure><h3 id="有条件查询"><a href="#有条件查询" class="headerlink" title="有条件查询"></a>有条件查询</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> <span class="keyword">table</span> <span class="keyword">where</span> l1=<span class="string">'x'</span>;</span><br></pre></td></tr></table></figure><h3 id="查询某列为空"><a href="#查询某列为空" class="headerlink" title="查询某列为空"></a>查询某列为空</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> <span class="keyword">table</span> <span class="keyword">where</span> l <span class="keyword">is</span> <span class="literal">null</span>;</span><br><span class="line">//l是想查询的列名</span><br></pre></td></tr></table></figure><h3 id="查询某列不为空"><a href="#查询某列不为空" class="headerlink" title="查询某列不为空"></a>查询某列不为空</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> * <span class="keyword">from</span> <span class="keyword">table</span> <span class="keyword">where</span> l <span class="keyword">is</span> <span class="keyword">not</span> <span class="literal">null</span>;</span><br><span class="line">//l是想查询的列名</span><br></pre></td></tr></table></figure><h3 id="查询随机列"><a href="#查询随机列" class="headerlink" title="查询随机列"></a>查询随机列</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> top x *,NewID() <span class="keyword">as</span> random <span class="keyword">from</span> <span class="keyword">table</span> <span class="keyword">order</span> <span class="keyword">by</span> random;</span><br><span class="line">//其中，x表示想查询的数据数</span><br><span class="line">//此方法可以显示表中的所有数据</span><br></pre></td></tr></table></figure><figure class="highlight"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> top x * <span class="keyword">from</span> <span class="keyword">table</span> <span class="keyword">group</span> <span class="keyword">by</span> * <span class="keyword">order</span> <span class="keyword">by</span> NewID();</span><br><span class="line">//其中，x表示想查询的数据数</span><br><span class="line">//此方法只显示*的结果，并非全表结果</span><br></pre></td></tr></table></figure><h2 id="添加"><a href="#添加" class="headerlink" title="添加"></a>添加</h2><h3 id="插入新的一行数据"><a href="#插入新的一行数据" class="headerlink" title="插入新的一行数据"></a>插入新的一行数据</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> <span class="keyword">table</span> <span class="keyword">values</span> （<span class="string">'x'</span>,<span class="string">'y'</span>,<span class="string">'z'</span>);</span><br><span class="line">//x,y,z表示插入表的数据</span><br></pre></td></tr></table></figure><h3 id="在指定的列中插入数据"><a href="#在指定的列中插入数据" class="headerlink" title="在指定的列中插入数据"></a>在指定的列中插入数据</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> <span class="keyword">table</span> (l1,l2) <span class="keyword">values</span>（<span class="string">'x'</span>,<span class="string">'y'</span>);</span><br><span class="line">//x,y,z表示插入l1,l2的数据</span><br></pre></td></tr></table></figure><h3 id="将表1数据添加至表1中"><a href="#将表1数据添加至表1中" class="headerlink" title="将表1数据添加至表1中"></a>将表1数据添加至表1中</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">insert</span> <span class="keyword">into</span> table2 <span class="keyword">select</span> <span class="keyword">from</span> table1;</span><br><span class="line">//table2必须存在</span><br></pre></td></tr></table></figure><h3 id="将查询数据添加至新表"><a href="#将查询数据添加至新表" class="headerlink" title="将查询数据添加至新表"></a>将查询数据添加至新表</h3><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">select</span> l1,l2 <span class="keyword">into</span> table1 <span class="keyword">from</span> <span class="keyword">table</span>;</span><br><span class="line">//l1,l2表示想查询的列</span><br><span class="line">//table1是数据库中没有的表</span><br><span class="line">//该语句会在数据库中新建一张表，并将对应列列名和数据填入新表中</span><br></pre></td></tr></table></figure><h2 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h2><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">update</span> <span class="keyword">table</span> <span class="keyword">set</span> l=<span class="string">'x'</span> <span class="keyword">where</span> 条件;  </span><br><span class="line">//带条件修改指定数据</span><br></pre></td></tr></table></figure><h2 id="删除"><a href="#删除" class="headerlink" title="删除"></a>删除</h2><figure class="highlight sql"><table><tr><td class="code"><pre><span class="line"><span class="keyword">delete</span> <span class="keyword">from</span> <span class="keyword">table</span> <span class="keyword">where</span> 条件;</span><br></pre></td></tr></table></figure><p>　　最后附上当年的作业<a href="/download/实验6.docx"">实验６</a>。　<br>　　实际使用过程往往比基本的语句更为复杂，在这一过程中，需不断提升自我的举一反三能力。　</p><p>　　</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="SQL Server" scheme="https://rongy.xyz/categories/SQL-Server/"/>
+    
+    
+      <category term="SQL" scheme="https://rongy.xyz/tags/SQL/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【教学反思】 鱼与熊掌，可兼得否？</title>
+    <link href="https://rongy.xyz/blog/b680ddf9.html"/>
+    <id>https://rongy.xyz/blog/b680ddf9.html</id>
+    <published>2019-10-27T07:28:34.000Z</published>
+    <updated>2020-05-08T02:36:37.116Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　英国哲学家席勒曾说道：“只有当人充分是人时，他才游戏，只有当人游戏的时候，他才完全是人。”诚然，在社会发展的必然过程中，游戏作为人类必备的娱乐模式，在人类生活中具有不可或缺的意义。<br>　　在这学期的教学游戏设计与开发课程中，随着学习的深入和专业的特点，在细致研读课本第六章——游戏和学习的挑战与机遇，对此，我产生了如此疑问：“鱼与熊掌，可兼得否”。作为一个不沉溺游戏的人，我个人对游戏始终保持着一种排斥的态度。回顾我所玩过的屈指可数的游戏，最多接触的不外乎两类，一类是密室逃脱，一类是非对称对抗类游戏。在此，我主要对非对称对抗类游戏作出介绍。<br>　　市面上颇为出名的非对称对抗类游戏则是《第五人格》。这是一款由网易开发的非对称性对抗竞技类游戏，玩家将扮演侦探奥尔菲斯，在收到一封神秘的委托信后，进入恶名昭著的庄园调查一件失踪案。在进行证据调查过程中，玩家扮演的奥尔菲斯将采用演绎法，对案情进行回顾。在案情回顾时，玩家可以选择扮演监管者或求生者，展开激烈的对抗。而在调查的过程，无限接近事实时，却发现越来越不可思议的真相。荒诞哥特画风，悬疑烧脑剧情，刺激的1V4“猫鼠追逃游戏”的对抗玩法，都将给玩家带来全新的游戏体验。<br><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s2.ax1x.com/2019/11/08/MVp228.jpg" style="margin-bottom: -30px"><br>　　《第五人格》在带来难忘的游戏体验的基础上，具有画风优质、情节新颖、角色多元、奖惩明确、易于操作这五大特点。这是设计一个好游戏所必备的，也是一个优秀的游戏设计者需优先考虑的。越来越多的教育人士更关注游戏的严谨性和剧情性，而不是将游戏体验建立在简单的完成任务时所收获的金币等奖励。这一点，对我们设计教育游戏具有重大的启发性意义。每个人物角色必须拥有其鲜明的性格特点和清晰的故事线，而每个人物并不是脱离于整个游戏所存在的，而是由多个人物共同构成庞大的故事情节。<br>　　虽然我曾一段时间中沉溺于《第五人格》的新颖情境和其优质画风中，但我却对教育与游戏的融合产生了深深的怀疑。我认为，应用教育游戏辅助教学仍是困难重重。首先，教育游戏在课堂中的应用与传统的教学模式存在一定的争论，课外教育游戏辅助学习仍不被家长们所接受。不可否认，教育游戏实现了一种新的可能，各项研究均表示，教育游戏对于辅助学生学习具有促进作用，但如何融合、怎样结合始终是值得不断探讨的问题。<br>　　在教育游戏的应用领域，破解这一困境需从两方面着手。首先要澄清教育游戏导致消极影响的原因，让教育界对辅助类教育游戏的普及有基本的应对措施；其次是认真开发高质量的教育游戏，使其在内容、操作等多方面得到教育家、教师、家长和学生的认可。并通过多元化模式，推进教育游戏的辅助教学的应用。<br>　　对于教育与电子游戏的融合，不少教育学专家提出新观点：实现教育的游戏化。作为一名学生，我认为，游戏化教学固然能够让学生较传统式教学更为迅捷地掌握知识，但会存在让学生重心倾斜的问题，且该模式只适合低年级学段学生，并不适合初高中学生。初高中学生更多将重心倾斜于中高考，一味地将教育游戏化会影响到学生的正常学习和学习成绩。<br>　　教育之路，任重而道远，作为一名教技学子，在教育游戏设计的过程中，首要考虑的重点应是通过教育游戏希望实现怎样的效果，取得怎样的绩效，而不是仅制作教育游戏。对此，我认为我们需要坚实的教学设计能力和教材分析能力，教育游戏源于游戏，但高于游戏，在游戏与教学中，需寻找合适的平衡点，明确教育游戏不能替代传统课堂、不能替代课后练习的基本特点，针对这些现状设计更适合于辅助教学的教育游戏，实现教育游戏在课程内外的辅助作用。<br>　　“鱼与熊掌，可兼得否”，在今后的学习中，质疑能力与创新能力始终是我需要重点关注的两个方面。我将持续思索，不断丰富自身的理论知识，只有有所思，才有所悟，才有提高。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Major Learning" scheme="https://rongy.xyz/categories/Major-Learning/"/>
+    
+    
+      <category term="RMMV" scheme="https://rongy.xyz/tags/RMMV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【博客框架】 Typecho</title>
+    <link href="https://rongy.xyz/blog/d5e457ca.html"/>
+    <id>https://rongy.xyz/blog/d5e457ca.html</id>
+    <published>2019-10-24T16:38:48.000Z</published>
+    <updated>2019-11-09T09:25:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　这周二由于微信推送的失误，导致一天没有推送，于是在上午课后下午党家值班时，想起自己还没有实现搞一个网站的小愿望。刚好本学期由于课程需要，在电脑上自己配置了WampServer，加上看了大师之前的个人博客后心痒难耐，我便想搭建一个属于自己的个人博客。<br>　　课上阮老师也推荐了相关工具WordPress，但在和大师的聊天中，了解到WordPress不够简洁轻量，于是便选择了大师所用的typecho，一款轻量简约型的博客。断断续续使用三天后，感觉甚好。现分享一下自己的使用心得：</p><h2 id="简约"><a href="#简约" class="headerlink" title="简约"></a>简约</h2><p>　　根据课上配置moodle的经验，首先，从typecho官网下载typecho安装包，解压后，放于wamp64/www文件夹下，解压后发现文件名为build。其次，开启wampserver，地址栏输入localhost/build，进入配置页面进行基本的配置（密码，站点等），进入typecho的后台管理界面。（这一段由于没有遇到什么大问题故而有点忘）<br>　　进入后台后，基本的界面点点点都能明白，在此不做赘述。总的来说，typecho提供了一套简洁的机制，界面主题，插件，都是自己嵌入的。虽然我没有学过php，但在查阅相关资料了解php的基本格式后，只要能看懂，能修改，就已经算达成小目标了。（具体php怎么写有空再学吧，毕竟我精力有限）<br>　　作为一个颜控的女娃娃，在基本配置好后，我便开启了扒扒扒模式。</p><h2 id="多样"><a href="#多样" class="headerlink" title="多样"></a>多样</h2><p>　　先放一张这两天自己捣鼓出的一个基本界面，从图中可以看出，这个界面基本实现了更换主题，添加看板娘，下雪特效。但字体、功能等方面并不是很完善，且我个人对php的构造并不是很了解（痛苦.jpg）。<br><img src= data:image/gif;base64,R0lGODdhAQABAPAAAMPDwwAAACwAAAAAAQABAAACAkQBADs= data-src="https://s2.ax1x.com/2019/11/08/MVpRxS.png" style="margin-bottom: -30px"><br>　　在这三天的琢磨中，我主要实现了三个功能，更换主题，尝试插件的使用，添加js特效，其中看板娘和js特效耗费了我大量的时间研究琢磨，过程辛酸艰苦，令人想吐血（开玩笑其实还可）<br>　　网上各路大神分享了各类神帖，我主要将其整理归类如下：</p><h3 id="主题插件类"><a href="#主题插件类" class="headerlink" title="主题插件类"></a>主题插件类</h3><p>　　我主要是从GitHub和Typecho Themes中获取主题，其中Typecho Themes中的资源大部分来源于GitHub，其中的主题下载后直接加入themes文件夹中，根据各个主题的GitHub说明文档即可完成主题和插件的更改调用。</p><h3 id="看板娘插件（即右下角的小人）"><a href="#看板娘插件（即右下角的小人）" class="headerlink" title="看板娘插件（即右下角的小人）"></a>看板娘插件（即右下角的小人）</h3><p>看板娘插件是我耗费时间最多，扒帖最多的一个插件，主要使用大佬的现成插件，将不同的看板娘加入其中。网上扒扒有非常多的教程和帖子，但不足之处是缺乏古风系列小人的live2d纸片小人，教程也相对缺乏（由于Live2d官网是日文的，谷歌翻译不准有时会有漏洞），故暂时只能使用大佬提供的现成版本，</p><h3 id="js特效"><a href="#js特效" class="headerlink" title="js特效"></a>js特效</h3><p>　　在我的页面中，我使用了鼠标点击出现爱心的特效，随便扒扒帖子一堆堆，但在此需要说明几点问题：<br>　　　①引用该特效的js文件需放在admin文件夹<br>　　　②修改时，修改的是footer.php（在这里不得不怪自己大脑不好忘记了html的基本结构）<br>　　以上是一些基本的使用心得，有空会修改扩充一下。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="WebSite" scheme="https://rongy.xyz/categories/WebSite/"/>
+    
+    
+      <category term="Typecho" scheme="https://rongy.xyz/tags/Typecho/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【阅读随笔】 一</title>
+    <link href="https://rongy.xyz/blog/80e41e0.html"/>
+    <id>https://rongy.xyz/blog/80e41e0.html</id>
+    <published>2019-10-01T03:32:20.000Z</published>
+    <updated>2020-05-08T02:36:37.107Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\assets\js\Meting.min.js"></script><p>　　浑浑噩噩在这世间20载，不敢自称读书人，我的脾性和一个标准的读书人大不相同，太无“礼”，太“任性”。昨儿看了本令人难忘的小说，不由得想起自己十几年的读书经历 （真感叹生命之伟大）。<br>　　人生中的第一本真正意义可称之为“读”的书的是《西游记》，那是二年级的假期，一个假期我都沉浸在降妖伏魔的玄幻世界中。当时只想早些看完整个故事，但对其中的每一句诗词歌赋，都甚为喜爱。自己的见解理解，都是起码高中后才有的东西。当然名著之所以伟大，是因其在时光的长河中所具备有强不可替代性。读书有悟，大概是近几年通过个人反思才体会到的。（这会不会迟了些…）<br>　　从小到大，花在书籍上的钱不计其数，我拥有满满一书架的书，且由于本人的突发性强迫症，我的部分小说都来自同一出版社。购置原因则是：“同一出版社的书颜色一致，放着好看”，书架中的大部分都已读过，还有部分电子读物。而根据其特点，我将其分为以下几类：</p><h2 id="中外名著"><a href="#中外名著" class="headerlink" title="中外名著"></a>中外名著</h2><p>　　我的书架中，大部分都是中外名著。类型众多，种类繁杂，然而以国外名著为多。在我看来，国外名著中，故事情节的架构、作者的描写手法等都是清晰明了、引人入胜的。最喜欢的一本国外名著是法国作家大仲马的《基督山伯爵》（又译《基督山伯爵复仇记》）。“一切希望都在等待之中”，当年的我视这句话为金句。时隔多年依旧觉得好有道理。当然，其他的一些小说也不错，譬如<strong>司汤达的《红与黑》；玛格丽特·米切尔的《飘》；海明威的《丧钟为谁而鸣》、《老人与海》；简·奥斯汀的《傲慢与偏见》；夏洛特·勃朗特的《简·爱》；露易莎·梅·奥尔科的《小妇人》；斯托夫人的《汤姆叔叔的小屋》；毛姆的《月亮与六便士》；弗吉尼亚·伍尔芙的《海浪》；加西亚·马尔克斯的《百年孤独》；弗·司各特·菲茨杰拉德的《了不起的盖茨比》；米奇·阿尔博姆的《相约星期二》；川端康成的《雪国》；紫式部的《源氏物语》；保罗·柯艾略的《牧羊少年奇幻之旅》；玛格丽特·阿特伍德的《使女的故事》</strong>。在相当长的一段时间中，这些小说占据着我桌上一角。并在今后的时光中，对我的思想起到了一塑造作用。<br>　　谈完国外名著，该谈谈本国名著了。国内名著呢..最爱的当属路遥的《平凡的世界》。突然发现一个非常恐怖的现象：谈及国外名著我..可以巴拉巴拉扯一堆，本国名著除了《平凡的世界》，我竟想不起第二本不错的书籍。我的天！我的文化摄入是有多少缺失…当然，并不是不看，只是好像没有办法在我的脑海中留下深刻的印象。我清晰地记得每位作家的作品。但在我的脑海中，无法形成一个具体化的印象。我的天！上苍！</p><h2 id="武侠小说"><a href="#武侠小说" class="headerlink" title="武侠小说"></a>武侠小说</h2><p>　　谈及武侠，最爱金庸。“飞雪连天射白鹿，笑书神侠倚碧鸳”，金庸的小说充满着人情味儿，是生活，是家国，每本书以不同的侧重点，吸引着我。最爱的是那《射雕英雄传》，黄蓉机灵聪慧，郭靖三观超正，但是黄蓉日后却变成了我最不喜欢的样子。直到大三后，我发现我在学着接受我所不喜欢的一切现实，慢慢也理解了中年时代的黄蓉。我们都要慢慢长大，都要去适应，但只要守住本心便好。</p><h2 id="情感小说"><a href="#情感小说" class="headerlink" title="情感小说"></a>情感小说</h2><p>　　谈及情感小说，首推张爱玲。哪个少女不在年少时看几本张爱玲和三毛，年纪大了后才会觉得，呵！不过张爱玲的书有些篇目还是可看，譬如《倾城之恋》、《红玫瑰与白玫瑰》、《半生缘》、《金锁记》都还可一看，但只能一看。爱情不是生活的全部，一生在情爱中纠葛，真的累死。</p><h2 id="网络小说"><a href="#网络小说" class="headerlink" title="网络小说"></a>网络小说</h2><p>　　这类书呢，种类繁多，样式也多，由于个人的阅读偏好，更喜欢那些架构大的权谋小说。谁说女孩子只能看言情呢？在此推荐以下几本：<br>　　1.星零的《帝皇书》：近期独宠，女版琅琊榜，“国大于家，民高于君”。<br>　　2.十四阙的《祸国》：14年起断断续续至今已有3本，每本都是权谋家国+小爱，作者积累丰富，文字功底超棒。<br>　　3.十四夜的《醉玲珑》：权谋家国+小爱，这世间最美的是我与你一起创太平盛世。<br>　　4.天下归元的《凰权》：也是同样的权谋家国+小爱，真的好正好正。电视剧版改的有点…<br>　　5.明晓溪的《旋风少女》：成长励志型，应该是明晓溪唯一一部的非纯言小说了。<br>　　我承认我喜欢看小说，但真正印象深刻的没有几本，上大学后，看小说更多成为了一种放松，仔细思考的时间缺失了很多。譬如仍存在看书太过片面，涉猎不广等问题。但…我觉得…可能不会解决了，譬如诗歌、散文，优秀作品很多，若论印象深度，远不如小说来的直接。<br>　　就这样，我的云服务器还没买，等我搞清并搞好自己的博客后再做一次迁移吧，这段时间先简书好了。<br>　　今天是祖国母亲的70周岁生日，祝生日快乐！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla
+      
+    
+    </summary>
+    
+    
+      <category term="Thinking" scheme="https://rongy.xyz/categories/Thinking/"/>
+    
+    
+      <category term="Reading" scheme="https://rongy.xyz/tags/Reading/"/>
+    
+  </entry>
+  
+</feed>
